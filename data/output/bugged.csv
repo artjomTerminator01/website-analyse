@@ -1,28 +1,793 @@
-First Name,Last Name,Title,Company,Email,Mobile Phone,Personal Linkedin Url,Website,Country,Score,FirstContentfulPaint,SpeedIndex,LargestContentfulPaint,TimeToInteractive,BlockingTime,CumulativeLayoutShift,reason
-Angus,Norriss,Owner,HedgeApple,angus@hedgeapple.com,,http://www.linkedin.com/in/angus-norriss-65532b1,http://www.hedgeapple.com,United Kingdom,,,,,,,,Response not OK
+First Name,Last Name,Title,Company,Email,Mobile Phone,Personal Linkedin Url,Website,Country,Score,FirstContentfulPaint,SpeedIndex,LargestContentfulPaint,TimeToInteractive,BlockingTime,CumulativeLayoutShift,Status
 Patrick,Baker,Head Of Marketing,Lantern,patrick@lanternnow.com,,http://www.linkedin.com/in/patrick-baker-6904b76b,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+Angus,Norriss,Owner,HedgeApple,angus@hedgeapple.com,,http://www.linkedin.com/in/angus-norriss-65532b1,http://www.hedgeapple.com,United Kingdom,,,,,,,,Response not OK
 Liz,Joyce,Experiential and Content Marketing,Lantern,liz.j@lanternnow.com,,http://www.linkedin.com/in/meetlizjoyce,http://www.lanternnow.com,United States,,,,,,,,Response not OK
-Nicole,Perakis,Human Resources Generalist,Threshold Brands,nperakis@thresholdbrands.com,,http://www.linkedin.com/in/nicole-perakis-b23b63b6,http://www.thresholdbrands.com,United States,,,,,,,,Google fetch api fail!
-Georgia,Semple,Senior Operations Manager,GetSteps,georgia.semple@get-steps.com,,http://www.linkedin.com/in/georgia-semple-6b0564172,http://www.get-steps.com,Germany,,,,,,,,Google fetch api fail!
-Karen,Hogan,Recreation/Volunteer Director,Morris View Healthcare Center,khogan@morrisview.com,,http://www.linkedin.com/in/karen-hogan-6b64b9123,http://www.morrisview.com,United States,,,,,,,,Google fetch api fail!
-James,Doyle,"Vice President, Marketing",Threshold Brands,james@thresholdbrands.com,,http://www.linkedin.com/in/james-doyle-7567562b,http://www.thresholdbrands.com,United States,,,,,,,,Google fetch api fail!
-Bianca,Toyos,Social Media & Communications Marketing Manager,Blue Interactive Agency,bianca.toyos@speaktoblue.com,,http://www.linkedin.com/in/bianca-toyos,http://www.blueinteractiveagency.com,United States,,,,,,,,Google fetch api fail!
-Bram,Kruiter,Eigenaar / Directeur,T-Portal,bram@t-portal.nl,,http://www.linkedin.com/in/bram-de-kruiter-054a9410,http://www.t-portal.nl,Netherlands,,,,,,,,Google fetch api fail!
-Peter,Thompson,Sales Manager,ChefMealKits,peter@chefmealkits.com,,http://www.linkedin.com/in/peter-thompson-78193a6,http://www.chefmealkits.com,United States,,,,,,,,Google fetch api fail!
-Frank,Colon,General Manager,Morris View Healthcare Center,fcolon@morrisview.com,,http://www.linkedin.com/in/frank-colon-84105a113,http://www.morrisview.com,United States,,,,,,,,Google fetch api fail!
-Ashlyn,Killham,Graphic Designer,Birdy Grey,ashlyn.killham@birdygrey.com,,http://www.linkedin.com/in/ashlyn-killham,http://www.birdygrey.com,United States,,,,,,,,Google fetch api fail!
-Lilly,Hofle,CRM & Marketing Manager,GetSteps,lilly.hofle@get-steps.com,,http://www.linkedin.com/in/lilly-h%c3%b6fle-a19360202,http://www.get-steps.com,Germany,,,,,,,,Google fetch api fail!
-Elysander,Plaza,Franchise Support Specialist,Threshold Brands,eplaza@thresholdbrands.com,,http://www.linkedin.com/in/elysander-plaza-23183222,http://www.thresholdbrands.com,United States,,,,,,,,Google fetch api fail!
-Kalpana,Kalpnasang,HR Executive,Staffer,kalpana@staffer.cc,,http://www.linkedin.com/in/kalpana-kalpnasang-51135371,http://www.staffer.cc,India,,,,,,,,Google fetch api fail!
-Deborah,Kurtz,Associate Vice President,HireMinds,deborah@hireminds.com,,http://www.linkedin.com/in/deborahkurtz,http://www.hireminds.com,United States,,,,,,,,Google fetch api fail!
-JD,Busch,Lead Interactive Web Producer,Lifeblue,jd@lifeblue.com,,http://www.linkedin.com/in/jd-busch-5753b81,http://www.lifeblue.com,United States,,,,,,,,Google fetch api fail!
-Hannah,Sherman,Senior Human Resources Manager,Birdy Grey,hannah.sherman@birdygrey.com,,http://www.linkedin.com/in/hannahvsherman,http://www.birdygrey.com,United States,,,,,,,,Google fetch api fail!
-Ashlea,Hayden,Account Executive,Staffer,ashlea@staffer.cc,,http://www.linkedin.com/in/ashlea-hayden-583158181,http://www.staffer.cc,United States,,,,,,,,Google fetch api fail!
-James,,Founder,Tillotek,james@tillotson.io,,http://www.linkedin.com/in/tillotsonjames,http://www.tillotson.io,United States,,,,,,,,Google fetch api fail!
-Will,Pry,Director of Content,Lifeblue,will@lifeblue.com,,http://www.linkedin.com/in/will-pry-0336b34,http://www.lifeblue.com,United States,,,,,,,,Google fetch api fail!
-Ben,Gatewood,Lead Data Engineer,Cipher Sports Technology Group,b.gatewood@ciphersports.io,,http://www.linkedin.com/in/bengatewood,http://www.ciphersports.io,Australia,,,,,,,,Google fetch api fail!
-Joseph,Carlton,Full Stack Developer,VRAI,jcarlton@vrai.com,,http://www.linkedin.com/in/rconjoe,http://www.vrai.com,United States,,,,,,,,Google fetch api fail!
-Queena,Chang,Diamond Expert,VRAI,queena@vrai.com,,http://www.linkedin.com/in/queena-chang-897ba0183,http://www.vrai.com,United States,,,,,,,,Google fetch api fail!
-Sam,Bench,Director of Performance Marketing,VRAI,sam@vrai.com,,http://www.linkedin.com/in/sam-bench-b7a3422b,http://www.vrai.com,Germany,,,,,,,,Google fetch api fail!
-Nazafarin,Akhavi,Digital Marketing Project Manager,VRAI,nazafarin@vrai.com,,http://www.linkedin.com/in/nazafarin-akhavi,http://www.vrai.com,France,,,,,,,,Google fetch api fail!
-Meg,Esterkin,Diamond Expert,VRAI,megesterkin@vrai.com,,http://www.linkedin.com/in/meg-esterkin-172b8229,http://www.vrai.com,United States,,,,,,,,Google fetch api fail!
+Charlie,Pino,Head of UX and Design,Lantern,charlie@lanternnow.com,,http://www.linkedin.com/in/pinocharlie,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+Carolina,Karpynec,Customer Service Manager,AMP Research | A Truck Hero Company,carolina@amp-research.com,,http://www.linkedin.com/in/carolina75,http://www.amp-research.com,United States,,,,,,,,Response not OK
+Robert,Wickham,Purchasing Supervisor,AMP Research | A Truck Hero Company,rwickham@amp-research.com,,http://www.linkedin.com/in/robert-wickham-501b3112,http://www.amp-research.com,United States,,,,,,,,Response not OK
+Bailey,Schneider,Customer Service Specialist,HedgeApple,bailey@hedgeapple.com,,http://www.linkedin.com/in/bailey-schneider-718558155,http://www.hedgeapple.com,United States,,,,,,,,Response not OK
+George,Tsikis,Owner,Lantern,george.tsikis@lanternuk.com,,http://www.linkedin.com/in/george-tsikis-a8bb6611,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+Eric,Bajza,Product Development Engineer,AMP Research | A Truck Hero Company,eric@amp-research.com,,http://www.linkedin.com/in/eric-bajza-086b224,http://www.amp-research.com,United States,,,,,,,,Response not OK
+Ray,Pisarski,r&d engneer,AMP Research | A Truck Hero Company,ray@amp-research.com,,http://www.linkedin.com/in/ray-pisarski-45689514,http://www.amp-research.com,United States,,,,,,,,Response not OK
+Jessica,Lanzetti,Customer Experience Representative,Lantern,jessica@lanternnow.com,,http://www.linkedin.com/in/jessica-lanzetti-6649a462,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+Meredith,Mahoney,CEO and Co-Founder,Lantern,meredith@lanternnow.com,,http://www.linkedin.com/in/meredith-mahoney,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+Seth,,DevOps Engineer,Lantern,seth@lanternnow.com,,http://www.linkedin.com/in/sethatlantern,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+John,Hedge,CEO,HedgeApple,john@hedgeapple.com,,http://www.linkedin.com/in/john-hedge-07740b142,http://www.hedgeapple.com,United States,,,,,,,,Response not OK
+Mike,Bowshier,Buyer,AMP Research | A Truck Hero Company,mbowshier@amp-research.com,,http://www.linkedin.com/in/mike-bowshier-09b22a76,http://www.amp-research.com,United States,,,,,,,,Response not OK
+Alexandra,Duncan,Growth Marketing Specialist,Lantern,alexandra@lanternnow.com,,http://www.linkedin.com/in/alexandra-duncan-687712b6,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+Janet,McClure,Customer Experience,Lantern,janet@lanternnow.com,,http://www.linkedin.com/in/janet-mcclure-56004942,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+Pilar,Garcia,Human Resources Manager,AMP Research | A Truck Hero Company,pgarcia@amp-research.com,,http://www.linkedin.com/in/pilarpgarcia,http://www.amp-research.com,United States,,,,,,,,Response not OK
+Kyle,Andersen,Operations Manager,HedgeApple,kyle@hedgeapple.com,,http://www.linkedin.com/in/kyle-andersen-b242ba187,http://www.hedgeapple.com,United States,,,,,,,,Response not OK
+Pablo,Garza,Vice President Operations,AMP Research | A Truck Hero Company,pgarza@amp-research.com,,http://www.linkedin.com/in/pablo-garza-61026b16,http://www.amp-research.com,United States,,,,,,,,Response not OK
+Katarina,Kinkela,Team Lead,Humanity,katarina.kinkela@humanity.com,,http://www.linkedin.com/in/katarinakinkela,http://www.humanity.network,Serbia,,,,,,,,Core fetch fail!
+Anthony,Smith,Engineering Director,AMP Research | A Truck Hero Company,anthony@amp-research.com,,http://www.linkedin.com/in/ansmith2,http://www.amp-research.com,United States,,,,,,,,Response not OK
+Lauren,Cornell,Software Engineer,Lantern,lauren@lanternnow.com,,http://www.linkedin.com/in/lauren-cornell-215932ba,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+Miranda,Cramer,Category Associate,Lantern,miranda@lanternnow.com,,http://www.linkedin.com/in/miranda-cramer-5513661b8,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+Katie,Neer,General Counsel,Lantern,katie@lanternnow.com,,http://www.linkedin.com/in/katie-neer-1b425414,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+John,Duncan,Head of Brand Partnerships,Lantern,john@lanternnow.com,,http://www.linkedin.com/in/john-duncan-84777b46,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+Carli,Schmidt,Copywriter,Lantern,carli@lanternnow.com,,http://www.linkedin.com/in/carli-schmidt-751029107,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+Krystal,Williams,People Operations Generalist,Lantern,krystal@lanternnow.com,,http://www.linkedin.com/in/krystal-williams-82a08413b,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+Fred,Gatti,Western Regional Sales Manager,AMP Research | A Truck Hero Company,fred@amp-research.com,,http://www.linkedin.com/in/fred-gatti-09a4a130,http://www.amp-research.com,United States,,,,,,,,Response not OK
+Lauryn,Velleca,Senior Customer Experience Specialist,Lantern,lauryn@lanternnow.com,,http://www.linkedin.com/in/laurynvelleca,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+Diana,Janec,Senior Designer,Lantern,diana@lanternnow.com,,http://www.linkedin.com/in/diana-janec-b2608b49,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+Rodrigo,Wiggers,Python Developer,HedgeApple,rodrigo@hedgeapple.com,,http://www.linkedin.com/in/rodrigo-wiggers-94b736116,http://www.hedgeapple.com,Brazil,,,,,,,,Response not OK
+Jay,Smith,COO,AMP Research | A Truck Hero Company,jay@amp-research.com,,http://www.linkedin.com/in/jay-smith-a90ba845,http://www.amp-research.com,United States,,,,,,,,Response not OK
+Greg,Smith,Owner,HedgeApple,greg@hedgeapple.com,,http://www.linkedin.com/in/greg-smith-71661b36,http://www.hedgeapple.com,United States,,,,,,,,Response not OK
+Monica,Seaman,Software Engineer,Lantern,monica@lanternnow.com,,http://www.linkedin.com/in/monica-seaman-309a1b30,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+TJ,Goff,Senior Software Engineer,Lantern,tj@lanternnow.com,,http://www.linkedin.com/in/tj-goff-6b12bba,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+Elvin,Valette,Software Engineer,Lantern,elvin@lanternnow.com,,http://www.linkedin.com/in/elvin-valette-5b2945a5,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+Omar,Riney,Head of People Operations,Lantern,omar@lanternnow.com,,http://www.linkedin.com/in/omarriney,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+Alex,Tironati,Senior Software Engineer,Lantern,alex@lanternnow.com,,http://www.linkedin.com/in/alex-tironati-5b437722,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+Max,Kohl,Senior Software Engineer,Lantern,max@lanternnow.com,,http://www.linkedin.com/in/max-kohl-5871729,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+Victoria,Plummer,Strategic Product Analyst,Lantern,victoria@lanternnow.com,,http://www.linkedin.com/in/victoriap0,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+Akele,Parnell,Head of Equity Partnerships,Lantern,akele@lanternnow.com,,http://www.linkedin.com/in/akele-parnell-52127028,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+Rasiel,,Talent Partner- SaaS Technology,Jarvis Elliott,rasiel@jarviselliott.com,,http://www.linkedin.com/in/rasiel-f-168b59149,http://www.jarviselliott.com,United States,,,,,,,,Core fetch fail!
+Bailey,Wild,Senior Recruiter,Tier4 Group,bailey@tier4group.com,,http://www.linkedin.com/in/bw2,http://www.tier4group.com,United States,,,,,,,,Core fetch fail!
+Princejon,Alonzo,Talent Partner,Jarvis Elliott,princejon@jarviselliott.com,,http://www.linkedin.com/in/princejonalonzo,http://www.jarviselliott.com,Philippines,,,,,,,,Core fetch fail!
+Lauren,Silver,Senior Interactive Web Producer,Lifeblue,lauren@lifeblue.com,,http://www.linkedin.com/in/lmsilver,http://www.lifeblue.com,United States,,,,,,,,Core fetch fail!
+Raquel,Walder,Brand and Influencer Associate,Birdy Grey,raquel.walder@birdygrey.com,,http://www.linkedin.com/in/raquel-walder-512211133,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Daryl,Nguyen,Business Development and Recruiting,"Talent Space, Inc.",dnguyen@svtalentspace.com,,http://www.linkedin.com/in/darylnguyen,http://www.svtalentspace.com,United States,,,,,,,,Bugged
+Scott,Ginsberg,Founder & CEO,Titan Casket,scott@titancasket.com,,http://www.linkedin.com/in/scott-ginsberg-1984614,http://www.titancasket.com,,,,,,,,,Bugged
+Jennifer,Skinner,Technical Sourcing Strategist,Tillotek,jskinner@tillotson.io,,http://www.linkedin.com/in/jennifer-skinner-ab4b89233,http://www.tillotson.io,United States,,,,,,,,Google fetch api fail!
+Zahra,Syed,Account Executive,"Talent Space, Inc.",zsyed@svtalentspace.com,,http://www.linkedin.com/in/zahrasyed,http://www.svtalentspace.com,United States,,,,,,,,Bugged
+Savannah,Casto,Data Analyst,LOCOMOTIVE Agency,savannah@locomotive.agency,,http://www.linkedin.com/in/savannah-casto,http://www.locomotive.agency,United States,,,,,,,,Bugged
+Caitlin,Ordy,Director of Client Services,LOCOMOTIVE Agency,caitlin@locomotive.agency,,http://www.linkedin.com/in/caitlin-vargas-ordy-7802851a,http://www.locomotive.agency,United States,,,,,,,,Bugged
+TJ,Dubensky,Search Engine Optimization Analyst,LOCOMOTIVE Agency,tj@locomotive.agency,,http://www.linkedin.com/in/tj-dubensky-b36022134,http://www.locomotive.agency,,,,,,,,,Bugged
+Meghana,Joshi,Technical Recruiter,"Talent Space, Inc.",mjoshi@svtalentspace.com,,http://www.linkedin.com/in/meghana-joshi-181006b,http://www.svtalentspace.com,United States,,,,,,,,Bugged
+Luis,Echegorri,Android Developer,Quidd,luis@myquidd.com,,http://www.linkedin.com/in/luis-echegorri,http://www.quidd.co,United States,,,,,,,,Bugged
+Marty,Martin,"Founder, CEO",LOCOMOTIVE Agency,marty@adaptpartners.com,,http://www.linkedin.com/in/martymartin,http://www.locomotive.agency,United States,,,,,,,,Bugged
+James,,Founder,Tillotek,james@tillotson.io,,http://www.linkedin.com/in/tillotsonjames,http://www.tillotson.io,United States,,,,,,,,Bugged
+Amanda,Allen,"Vice President, Agency & Client Operations",LOCOMOTIVE Agency,amanda@adaptpartners.com,,http://www.linkedin.com/in/amanda-allen-03523111,http://www.locomotive.agency,United States,,,,,,,,Bugged
+Adam,Fiske,Chief Executive Officer,Cipher Sports Technology Group,adam@ciphersports.io,,http://www.linkedin.com/in/adam-fiske-78980574,http://www.ciphersports.io,Australia,,,,,,,,Bugged
+Chrissy,Holmberg,Accountant,Astanza Laser,cholmberg@astanzalaser.com,,http://www.linkedin.com/in/chrissy-holmberg-8385867b,http://www.astanzalaser.com,United States,,,,,,,,Bugged
+Jennifer,Baldwin,Vice President,AVB Inc.,jennifer.baldwin@brandsource.com,,http://www.linkedin.com/in/jennifer-baldwin-0667029,http://www.brandsource.com,United States,,,,,,,,Bugged
+Darone,Francis,Operations Supervisor,Clutch,darone.francis@clutch.ca,,http://www.linkedin.com/in/darone-francis-07a86a67,http://www.clutchnow.com,Canada,,,,,,,,Bugged
+Cliff,,VP of Growth,Demand.io,cliff@demand.io,,http://www.linkedin.com/in/clifforddong,http://www.demand.io,United States,,,,,,,,Bugged
+Dat,Nguyen,Head Of Development,3GC Group,dnguyen@3gcgroup.com,,http://www.linkedin.com/in/dat-nguyen-4a51b92,http://www.3gcgroup.com,United States,,,,,,,,Bugged
+Aruna,Panda,Website Support Specialist,Treatspace,aruna.panda@treatspace.com,,http://www.linkedin.com/in/arunapanda,http://www.treatspace.com,India,,,,,,,,Bugged
+Cecily,Milligan,Digital and Social Media Strategist,Treatspace,cecily.milligan@treatspace.com,,http://www.linkedin.com/in/cecily-milligan-11323215a,http://www.treatspace.com,United States,,,,,,,,Bugged
+Robert,Cooper,Senior Director Technical SEO,LOCOMOTIVE Agency,robert@adaptpartners.com,,http://www.linkedin.com/in/robertcpadgett,http://www.locomotive.agency,Brazil,,,,,,,,Bugged
+Carl,Brooks,SEO Director,LOCOMOTIVE Agency,carl@locomotive.agency,,http://www.linkedin.com/in/carl-brooks,http://www.locomotive.agency,United Kingdom,,,,,,,,Bugged
+Christine,Calvin,Management Consultant,Clutch,christine@clutchnow.com,,http://www.linkedin.com/in/christinecalvin,http://www.clutchnow.com,United States,,,,,,,,Bugged
+Joshua,Walsh,Business Development Manager,Astanza Laser,jwalsh@astanzalaser.com,,http://www.linkedin.com/in/joshuaswalsh,http://www.astanzalaser.com,United States,,,,,,,,Bugged
+Ryan,Benes,Vice President Marketing,365 Holdings,ryan@365-holdings.com,,http://www.linkedin.com/in/ryan-benes-67a85038,http://www.365-holdings.com,Australia,,,,,,,,Bugged
+Suchi,Asrani,Senior Technical Recruiter,"Talent Space, Inc.",sasrani@svtalentspace.com,,http://www.linkedin.com/in/suchi-asrani,http://www.svtalentspace.com,United States,,,,,,,,Bugged
+Haylee,Gecas,Project Manager,LOCOMOTIVE Agency,haylee@locomotive.agency,,http://www.linkedin.com/in/haylee-gecas,http://www.locomotive.agency,United States,,,,,,,,Bugged
+Megan,Dyson,Project Manager,LOCOMOTIVE Agency,megan@locomotive.agency,,http://www.linkedin.com/in/megan-dyson-1a167232,http://www.locomotive.agency,United States,,,,,,,,Bugged
+Jessica,Brandt,Brand Marketing Manager,Astanza Laser,jbrandt@astanzalaser.com,,http://www.linkedin.com/in/jessica-brandt-a7a258115,http://www.astanzalaser.com,United States,,,,,,,,Bugged
+Denny,Bulcao,Founder & CEO,"DennyWrites.com, LLC",denny@dennywrites.com,,http://www.linkedin.com/in/dennybulcao,http://www.dennywrites.com,United States,,,,,,,,Bugged
+Meg,Ginimav,Founder & CEO,ChefMealKits,meg@chefmealkits.com,,http://www.linkedin.com/in/meg-ginimav-75b71b,http://www.chefmealkits.com,United States,,,,,,,,Bugged
+Patrick,Breiner,Customer Success Manager,Treatspace,patrick.breiner@treatspace.com,,http://www.linkedin.com/in/patrick-breiner,http://www.treatspace.com,United States,,,,,,,,Bugged
+Kathy,Shultz,Account Service Rep,"Company Folders, Inc.",kshultz@independentfolders.com,,http://www.linkedin.com/in/kathy-shultz-648b576b,http://www.companyfolders.com,United States,,,,,,,,Bugged
+Wilson,Carter,Founder,Clutch,wilson@clutchcharger.com,,http://www.linkedin.com/in/wilson-carter-mba-06b33435,http://www.clutchnow.com,United States,,,,,,,,Bugged
+Lynda,Beauchesne,Account Executive,"Talent Space, Inc.",lbeauchesne@svtalentspace.com,,http://www.linkedin.com/in/lyndabeauchesne,http://www.svtalentspace.com,United States,,,,,,,,Bugged
+Howard,Keating,COO,"Company Folders, Inc.",hkeating@printwand.com,,http://www.linkedin.com/in/howardkeating,http://www.companyfolders.com,United States,,,,,,,,Bugged
+Jean,Kirchner,Lead Software Engineer,Clutch,jean.kirchner@withclutch.com,,http://www.linkedin.com/in/kchnr,http://www.clutchnow.com,Brazil,,,,,,,,Bugged
+Damien,Souness,Chief Innovation Officer,Cipher Sports Technology Group,damien@ciphersports.io,,http://www.linkedin.com/in/dsouness,http://www.ciphersports.io,Australia,,,,,,,,Bugged
+Maximiliano,Arias,Senior Software Engineer,Demand.io,marias@demand.io,,http://www.linkedin.com/in/maxarias,http://www.demand.io,Argentina,,,,,,,,Bugged
+Alexander,Sean,Search Engine Optimization Manager,Clutch,alexander@clutchnow.com,,http://www.linkedin.com/in/alexander-sean-33575b226,http://www.clutchnow.com,United States,,,,,,,,Bugged
+Abhay,Chunchuwar,Professional Recruiter,Platinum Resource Group,achunchuwar@prgwest.com,,http://www.linkedin.com/in/abhay-chunchuwar-6b4742173,http://www.platinumresourcegroup.com,United States,,,,,,,,Bugged
+Jussi,Kaalikoski,sales manager,Finnsteve,jussi.kaalikoski@finnsteve.fi,,http://www.linkedin.com/in/jussi-kaalikoski-4213487a,http://www.finnsteve.fi,Finland,,,,,,,,Bugged
+Chad,Moyer,Lead Full Stack Engineer,Treatspace,chad.moyer@treatspace.com,,http://www.linkedin.com/in/cmoyer521,http://www.treatspace.com,United States,,,,,,,,Bugged
+Frank,,Project Manager,365 Holdings,frank@365-holdings.com,,http://www.linkedin.com/in/montini-frank,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Meg,Trollan,"Director, Wholesale Partnerships",VRAI,meg@vrai.com,,http://www.linkedin.com/in/meg-trollan-240a1851,http://www.vrai.com,United States,,,,,,,,Bugged
+Luciano,Milen,Senior Software Engineer,Demand.io,lmilen@demand.io,,http://www.linkedin.com/in/luciano-otoni-milen,http://www.demand.io,Brazil,,,,,,,,Bugged
+Verneri,Jaamuru,"Co-Founder, CPO",Veri,verneri@veristable.com,,http://www.linkedin.com/in/jaamuru,http://www.veri.co,Finland,,,,,,,,Bugged
+Jonathan,Atkinson,Marketing Operations Associate,365 Holdings,jonathan.a@365-holdings.com,,http://www.linkedin.com/in/jonathan-atkinson-91859210a,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Fernanda,Vuckovic,Recruiting Manager,Birdy Grey,fernanda.vuckovic@birdygrey.com,,http://www.linkedin.com/in/ferncarvalho,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Peter,Thompson,Sales Manager,ChefMealKits,peter@chefmealkits.com,,http://www.linkedin.com/in/peter-thompson-78193a6,http://www.chefmealkits.com,United States,,,,,,,,Bugged
+Steven,Howard,Southwest Regional Sales Manager,Astanza Laser,showard@astanzalaser.com,,http://www.linkedin.com/in/steven-howard-a2aa6934,http://www.astanzalaser.com,,,,,,,,,Bugged
+Firas,Khemir,Software Engineer,Manifold Ventures,firas@manifoldventures.net,,http://www.linkedin.com/in/firas-kh,http://www.manifoldventures.net,Tunisia,,,,,,,,Bugged
+Opal,,Director - Inside Sales,Astanza Laser,otaskila@astanzalaser.com,,http://www.linkedin.com/in/opaltaskila,http://www.astanzalaser.com,United States,,,,,,,,Bugged
+Morten,Pedersen,Founder,Genomic Expression Inc,mlp@genomicexpression.com,,http://www.linkedin.com/in/morten-lorentz-pedersen,http://www.genomicexpression.com,United States,,,,,,,,Bugged
+Souvik,Bose,Senior Information Technology Recruiter,"Hired by Matrix, Inc",souvik.bose@hiredbymatrix.com,,http://www.linkedin.com/in/souvik-bose-2ab8b5175,http://www.hiredbymatrix.com,India,,,,,,,,Bugged
+Guillaume,Frealle,Conseiller en recrutement IT Senior,Fed IT Canada,guillaumefrealle@fedit.ca,,http://www.linkedin.com/in/guillaumefrealle,http://www.fedit.ca,Canada,,,,,,,,Bugged
+Greg,Selbo,Associate Product Manager,Demand.io,greg@demand.io,,http://www.linkedin.com/in/greg-selbo,http://www.demand.io,United States,,,,,,,,Bugged
+Christopher,Sontag,Bioinformatics Intern,Genomic Expression Inc,,,http://www.linkedin.com/in/christopher-sontag-8734101b6,http://www.genomicexpression.com,United States,,,,,,,,Bugged
+Ryan,Haase,Affiliate Partnerships Manager,Cipher Sports Technology Group,ryan.haase@ciphersports.io,,http://www.linkedin.com/in/ryan-haase-368197127,http://www.ciphersports.io,United States,,,,,,,,Bugged
+Eduard,Liebenberger,Chief Technology Officer,Fingerprint for Success (F4S),eduard@f4s.com,,http://www.linkedin.com/in/eduardliebenberger,http://www.fingerprintforsuccess.com,New Zealand,,,,,,,,Bugged
+Meg,Esterkin,Diamond Expert,VRAI,megesterkin@vrai.com,,http://www.linkedin.com/in/meg-esterkin-172b8229,http://www.vrai.com,United States,,,,,,,,Bugged
+Claire,Anderson,Senior Search Consultant,HireMinds,claire@hireminds.com,,http://www.linkedin.com/in/claire-m-anderson,http://www.hireminds.com,United States,,,,,,,,Bugged
+Martin,Sander,Sales & Partnership Manager,GetSteps,martin.sander@get-steps.com,,http://www.linkedin.com/in/martin-sander-7a9370ab,http://www.get-steps.com,Germany,,,,,,,,Bugged
+John,Rizzo,Senior Account Executive,funded.club,john.rizzo@funded.club,,http://www.linkedin.com/in/rizzojohn,http://www.funded.club,United States,,,,,,,,Bugged
+Margaret,Sherman,Sr. IT Recruiter,Platinum Resource Group,msherman@prgwest.com,,http://www.linkedin.com/in/margaret-sherman-7734281,http://www.platinumresourcegroup.com,United States,,,,,,,,Bugged
+Jane,Groner,Founder,"Pacific Placement Group, LLC.",jane@pacificplacement.com,,http://www.linkedin.com/in/jane-groner-2b1416,http://www.pacificplacement.com,United States,,,,,,,,Bugged
+Matt,Fernandez,Director of Social Media Marketing,Glacial Multimedia,mattf@glacial.com,,http://www.linkedin.com/in/matt-fernandez-74a3aa7a,http://www.glacial.com,United States,,,,,,,,Bugged
+Adam,Pelletier,"Designer, Project Manager and Organic SEO Specialist",Glacial Multimedia,adam@glacial.com,,http://www.linkedin.com/in/adam-pelletier-4a5443a0,http://www.glacial.com,United States,,,,,,,,Bugged
+Carlie,Lavin,Technical Recruiter,Tier4 Group,carlie@tier4group.com,,http://www.linkedin.com/in/carlie-lavin,http://www.tier4group.com,United States,,,,,,,,Bugged
+Greg,Conrad,Web Developer,Glacial Multimedia,greg@gregconrad.net,,http://www.linkedin.com/in/greg-conrad-web,http://www.glacial.com,United States,,,,,,,,Bugged
+Michelle,Holahan,"AVP, Head of Employer Brand",HireMinds,mholahan@hireminds.com,,http://www.linkedin.com/in/michelleholahan,http://www.hireminds.com,United States,,,,,,,,Bugged
+Matt,Goldsmith,Corporate Controller,Threshold Brands,mgoldsmith@thresholdbrands.com,,http://www.linkedin.com/in/mattgoldsmith,http://www.thresholdbrands.com,United States,,,,,,,,Bugged
+Michael,Nelson,Sales Director,Tier4 Group,michael@tier4group.com,,http://www.linkedin.com/in/michael-nelson-08a10174,http://www.tier4group.com,United States,,,,,,,,Bugged
+Hannah,Sherman,Senior Human Resources Manager,Birdy Grey,hannah.sherman@birdygrey.com,,http://www.linkedin.com/in/hannahvsherman,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Hannah,Barling,Content Marketing Manager,Astanza Laser,hbarling@astanzalaser.com,,http://www.linkedin.com/in/hannahbarling,http://www.astanzalaser.com,United States,,,,,,,,Bugged
+Rebecca,Svoboda,Search Engine Optimization Manager,Treatspace,rebecca.svoboda@treatspace.com,,http://www.linkedin.com/in/rebecca-svoboda-00068810b,http://www.treatspace.com,United States,,,,,,,,Bugged
+Keith,Tallarigo,Print Project Manager,"Company Folders, Inc.",ktallarigo@companyfolders.com,,http://www.linkedin.com/in/keithtallarigo,http://www.companyfolders.com,United States,,,,,,,,Bugged
+Felipe,Lahti,Software Engineer,Clutch,lahti@withclutch.com,,http://www.linkedin.com/in/flahti,http://www.clutchnow.com,Brazil,,,,,,,,Bugged
+Reva,English,Content Manager,LOCOMOTIVE Agency,reva@locomotive.agency,,http://www.linkedin.com/in/reva-russell-english-489545120,http://www.locomotive.agency,United States,,,,,,,,Bugged
+Oumar,Toure,,,oumartoure@fedit.ca,,http://www.linkedin.com/in/oumar-tour%c3%a9,http://www.fedit.ca,Canada,,,,,,,,Bugged
+Billy,Jackson,Business Development,GDP,billy.jackson@gdpdrilling.com,,http://www.linkedin.com/in/billy-jackson-51b55513,http://www.gdpdrilling.com,United States,,,,,,,,Bugged
+Eric,Pairitz,Owner,smartdept. inc.,eric@thesmartdept.com,,http://www.linkedin.com/in/eric-pairitz-89444b1,http://www.thesmartdept.com,United States,,,,,,,,Bugged
+Berna,Soysal,Web Designer,Glacial Multimedia,berna@glacial.com,,http://www.linkedin.com/in/berna-soysal-61b6b324,http://www.glacial.com,Turkey,,,,,,,,Bugged
+Liv,Horne,Creative and Digital Marketing Search Consultant,HireMinds,liv@hireminds.com,,http://www.linkedin.com/in/liv-goold-horne,http://www.hireminds.com,United States,,,,,,,,Bugged
+Kristen,Kerouac,Scientific Search Consultant,HireMinds,kristen@hireminds.com,,http://www.linkedin.com/in/kkerouac,http://www.hireminds.com,United States,,,,,,,,Bugged
+Serin,Kelley,Design Lead and Designer Relations,VRAI,serin@vrai.com,,http://www.linkedin.com/in/serin-kelley-50b9a410,http://www.vrai.com,United States,,,,,,,,Bugged
+Spenser,Pontbriand,Digital Marketing Director,Glacial Multimedia,spenser@glacial.com,,http://www.linkedin.com/in/spenser-pontbriand-3860581b,http://www.glacial.com,United States,,,,,,,,Bugged
+Djamel,Kramcha,Video Content Creator/ Manager,GetSteps,djamel.kramcha@get-steps.com,,http://www.linkedin.com/in/djamel-kramcha-7a5297129,http://www.get-steps.com,Germany,,,,,,,,Bugged
+Ryan,Malaluan,Growth & Outreach Team,Fingerprint for Success (F4S),ryan@f4s.com,,http://www.linkedin.com/in/ryan-malaluan-a78633169,http://www.fingerprintforsuccess.com,Philippines,,,,,,,,Bugged
+Zarine,Omran,Recruiting Director,Platinum Resource Group,zomran@prgwest.com,,http://www.linkedin.com/in/zarine-omran-10aa851,http://www.platinumresourcegroup.com,United States,,,,,,,,Bugged
+Maggie,Toland,Technical Recruiter,Tier4 Group,maggie@tier4group.com,,http://www.linkedin.com/in/maggietoland,http://www.tier4group.com,United States,,,,,,,,Bugged
+Raman,Aryana,Jr. Back End Developer,365 Holdings,raman@365-holdings.com,,http://www.linkedin.com/in/ramanaryana,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Joe,Bentz,Project Manager,"TestPros, Inc.",jbentz@testpros.com,,http://www.linkedin.com/in/joe-bentz-92a8b68,http://www.testpros.com,United States,,,,,,,,Bugged
+Nicholas,Cole,Digital Marketing Consultant,Glacial Multimedia,nicholas@glacial.com,,http://www.linkedin.com/in/nicholas-cole-b48787142,http://www.glacial.com,United States,,,,,,,,Bugged
+Maggie,Nevens,Digital Marketing Coordinator,Glacial Multimedia,maggie@glacial.com,,http://www.linkedin.com/in/maggie-nevens,http://www.glacial.com,United States,,,,,,,,Bugged
+Cheryl,Flores,Technical Recruiter,"Talent Space, Inc.",cflores@svtalentspace.com,,http://www.linkedin.com/in/cheryl-flores-75933a1,http://www.svtalentspace.com,United States,,,,,,,,Bugged
+Naveen,Kumar,Engineering and Product Management,Treatspace,naveen.kumar@treatspace.com,,http://www.linkedin.com/in/vnavinkumar,http://www.treatspace.com,United States,,,,,,,,Bugged
+Christian,Szczepanski,Graphic Designer Prepress,American Tape and Label,christian@at-l.com,,http://www.linkedin.com/in/cszczepa,http://www.at-l.com,United States,,,,,,,,Bugged
+Will,Pry,Director of Content,Lifeblue,will@lifeblue.com,,http://www.linkedin.com/in/will-pry-0336b34,http://www.lifeblue.com,United States,,,,,,,,Bugged
+Jordan,Savant,Lead Back End Developer,Lifeblue,jordan@lifeblue.com,,http://www.linkedin.com/in/jordan-savant-6a0b58136,http://www.lifeblue.com,United States,,,,,,,,Bugged
+Megan,Thomson,Design & Marketing,Clutch,megan@clutchnow.com,,http://www.linkedin.com/in/megjt,http://www.clutchnow.com,United States,,,,,,,,Bugged
+Courtney,Ball,Intern,Genomic Expression Inc,,,http://www.linkedin.com/in/courtney-ball-a1a279202,http://www.genomicexpression.com,United States,,,,,,,,Bugged
+Shawn,Harvey,HVAC Operations Manager,1-800-PLUMBER,sharvey@1800plumber.com,,http://www.linkedin.com/in/shawn-harvey-635a2076,http://www.1800plumber.com,United States,,,,,,,,Bugged
+Marcelo,Adamatti,Software Engineer,Demand.io,madamatti@demand.io,,http://www.linkedin.com/in/adamatti,http://www.demand.io,Brazil,,,,,,,,Bugged
+Heather,Rosenow,Chief Marketing Officer,Lifeblue,hrosenow@lifeblue.com,,http://www.linkedin.com/in/heather-rosenow-20a8952,http://www.lifeblue.com,United States,,,,,,,,Bugged
+Alisyn,Morris,Marketing Search Consultant,HireMinds,amorris@hireminds.com,,http://www.linkedin.com/in/alisyn-morris-ba468559,http://www.hireminds.com,United States,,,,,,,,Bugged
+Ellie,McCarthy,Senior Search Consultant,HireMinds,ellie@hireminds.com,,http://www.linkedin.com/in/el-mccarthy,http://www.hireminds.com,United States,,,,,,,,Bugged
+Michael,Tavani,SaaS Talent Partner,Jarvis Elliott,michael@jarviselliott.com,,http://www.linkedin.com/in/michael-tavani,http://www.jarviselliott.com,United States,,,,,,,,Bugged
+Scott,Murray,Information Technology Recruiter,"TestPros, Inc.",smurray@testpros.com,,http://www.linkedin.com/in/scott-murray-41b18414b,http://www.testpros.com,United States,,,,,,,,Bugged
+Angelica,Ambos,SEO - Community Outreach Specialist,Fingerprint for Success (F4S),angie@f4s.com,,http://www.linkedin.com/in/angelicaambos,http://www.fingerprintforsuccess.com,Philippines,,,,,,,,Bugged
+Diane,Maines,Creative Director - Portland Office,Glacial Multimedia,diane@glacial.com,,http://www.linkedin.com/in/diane-maines-a45a1553,http://www.glacial.com,United States,,,,,,,,Bugged
+Peter,Tyre,Technical Sourcer,Tier4 Group,peter@tier4group.com,,http://www.linkedin.com/in/petertyre,http://www.tier4group.com,United States,,,,,,,,Bugged
+Bill,Roberson,Sr. Interactive Producer,Lifeblue,bill@lifeblue.com,,http://www.linkedin.com/in/bill-roberson-cos,http://www.lifeblue.com,United States,,,,,,,,Bugged
+Lizette,Munoz,Executive Personal Assistant,"Talent Space, Inc.",lmunoz@svtalentspace.com,,http://www.linkedin.com/in/lizette-munoz-041895204,http://www.svtalentspace.com,United States,,,,,,,,Bugged
+Brian,Hasenbauer,Vice President of Marketing,Astanza Laser,bhasenbauer@astanzalaser.com,,http://www.linkedin.com/in/brianhasenbauer,http://www.astanzalaser.com,United States,,,,,,,,Bugged
+Benjamin,Cave,Director of Operations,Titan Casket,ben@titancasket.com,,http://www.linkedin.com/in/benjamincave,http://www.titancasket.com,United States,,,,,,,,Bugged
+Joe,Joiner,Senior Technical SEO Analyst,LOCOMOTIVE Agency,joe@locomotive.agency,,http://www.linkedin.com/in/joejoinerr,http://www.locomotive.agency,United Kingdom,,,,,,,,Bugged
+Cody,Michalowski,Recruitment Specialist,Clutch,cody@clutchnow.com,,http://www.linkedin.com/in/cody-michalowski-b3b1ba27,http://www.clutchnow.com,United States,,,,,,,,Bugged
+Haley,Stowell,Senior Creative Account Manager,smartdept. inc.,haley@thesmartdept.com,,http://www.linkedin.com/in/haleystowell,http://www.thesmartdept.com,United States,,,,,,,,Bugged
+Matias,Benavides,Software Engineer,Demand.io,mbenavides@demand.io,,http://www.linkedin.com/in/matias-benavides-a1a38525,http://www.demand.io,Argentina,,,,,,,,Bugged
+Jewel,Schmitz,Business Development Consultant,Clutch,jewel@clutchnow.com,,http://www.linkedin.com/in/jewel-schmitz-396a148b,http://www.clutchnow.com,United States,,,,,,,,Bugged
+Joanne,Diehl,Lead IT Recruiter,Capital Markets Placement,joanne@capitalmarketsp.com,,http://www.linkedin.com/in/joanne-m-diehl-6710a59,http://www.capitalmarketsp.com,United States,,,,,,,,Bugged
+Kate,Gardner,Marketing & Biotech Search Consultant,HireMinds,kate@hireminds.com,,http://www.linkedin.com/in/katherinem-gardner,http://www.hireminds.com,United States,,,,,,,,Bugged
+Nita,Davis,Director Of Business Development,Platinum Resource Group,ndavis@prgwest.com,,http://www.linkedin.com/in/nita-davis-758ba799,http://www.platinumresourcegroup.com,United States,,,,,,,,Bugged
+Tricia,Hanley,"Search Consultant, Life Sciences",HireMinds,tricia@hireminds.com,,http://www.linkedin.com/in/tricia-hanley-5a3876116,http://www.hireminds.com,United States,,,,,,,,Bugged
+Blake,Dipinto,Senior Product Manager,Clutch,blake.dipinto@clutch.ca,,http://www.linkedin.com/in/blake-dipinto-46921365,http://www.clutchnow.com,United States,,,,,,,,Bugged
+Phillip,Blackmon,Co-Founder and CEO,Lifeblue,phillip@lifeblue.com,,http://www.linkedin.com/in/phillip-blackmon-72145821,http://www.lifeblue.com,United States,,,,,,,,Bugged
+Hiba,Chaouni,Search Engine Optimization Specialist,TriGlobal,hiba.chaouni@triglobal.org,,http://www.linkedin.com/in/chaounihibat,http://www.triglobal.org,Netherlands,,,,,,,,Bugged
+Devin,Ghazi,Partnerships Lead,Veri,devin@gainful.com,,http://www.linkedin.com/in/devin-ghazi-316b70105,http://www.veri.co,United States,,,,,,,,Bugged
+Anthony,Disla,Talent Partner- SaaS Technology,Jarvis Elliott,anthony@jarviselliott.com,,http://www.linkedin.com/in/anthony-disla-787828233,http://www.jarviselliott.com,United States,,,,,,,,Bugged
+Alis,Madatyan,Link Manager,Submit Express,alis@submitexpress.com,,http://www.linkedin.com/in/alis-madatyan-341b763,http://www.submitexpress.com,United States,,,,,,,,Bugged
+Samantha,Jerabek,VP of Operations,Blue Interactive Agency,sam@speaktoblue.com,,http://www.linkedin.com/in/samantha-jerabek-305a1265,http://www.blueinteractiveagency.com,United States,,,,,,,,Bugged
+Nazafarin,Akhavi,Digital Marketing Project Manager,VRAI,nazafarin@vrai.com,,http://www.linkedin.com/in/nazafarin-akhavi,http://www.vrai.com,France,,,,,,,,Bugged
+Dominic,White,Web Content Developer,Glacial Multimedia,dominic@glacial.com,,http://www.linkedin.com/in/dominicwhitestudio,http://www.glacial.com,United States,,,,,,,,Bugged
+Annik,Wolf,Co-Founder at Steps,GetSteps,annik.wolf@get-steps.com,,http://www.linkedin.com/in/annik-wolf-34407340,http://www.get-steps.com,Germany,,,,,,,,Bugged
+Rose,Kingombo,Information System Security Manager,"TestPros, Inc.",rkingombo@testpros.com,,http://www.linkedin.com/in/rose-kingombo-050b58168,http://www.testpros.com,United States,,,,,,,,Bugged
+Derek,Thorpe,Junior Developer,365 Holdings,derek@365-holdings.com,,http://www.linkedin.com/in/dthorpe13,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Stephen,Palmer,Information Technology Support Engineer,Threshold Brands,spalmer@thresholdbrands.com,,http://www.linkedin.com/in/stephen-palmer-99780289,http://www.thresholdbrands.com,United States,,,,,,,,Bugged
+Ashlyn,Killham,Graphic Designer,Birdy Grey,ashlyn.killham@birdygrey.com,,http://www.linkedin.com/in/ashlyn-killham,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Erica,Fallon,Controller,LOCOMOTIVE Agency,erica@adaptpartners.com,,http://www.linkedin.com/in/erica-fallon-201a687,http://www.locomotive.agency,United States,,,,,,,,Bugged
+Rick,Cancelliere,Founder and CEO,Treatspace,rick.cancelliere@treatspace.com,,http://www.linkedin.com/in/rickcancelliere,http://www.treatspace.com,United States,,,,,,,,Bugged
+Shehzan,Khan,Talent Partner,Clutch,shehzan.khan@clutch.ca,,http://www.linkedin.com/in/shehzan-khan-6a033051,http://www.clutchnow.com,Canada,,,,,,,,Bugged
+Andrew,Pettigrew,Regional Sales Manager,Astanza Laser,apettigrew@astanzalaser.com,,http://www.linkedin.com/in/andrew-pettigrew-3060603b,http://www.astanzalaser.com,United States,,,,,,,,Bugged
+Michael,Quoc,Founder and CEO,Demand.io,mike@demand.io,,http://www.linkedin.com/in/michaelquoc,http://www.demand.io,United States,,,,,,,,Bugged
+Rebecca,Adler,SEO Specialist,Glacial Multimedia,rebecca@glacial.com,,http://www.linkedin.com/in/rebecca-adler-472b67a5,http://www.glacial.com,United States,,,,,,,,Bugged
+Raynaldo,Perez,SEO Analyst,Submit Express,raynaldo@submitexpress.com,,http://www.linkedin.com/in/raynaldo-perez-989187b4,http://www.submitexpress.com,United States,,,,,,,,Bugged
+Katie,Golson,"Search Consultant, Life Sciences",HireMinds,katie@hireminds.com,,http://www.linkedin.com/in/katiegolson,http://www.hireminds.com,United States,,,,,,,,Bugged
+Michelle,Quinn,"AVP/Practice Director, Marketing and Creative",HireMinds,mquinn@hireminds.com,,http://www.linkedin.com/in/michelledquinn,http://www.hireminds.com,United States,,,,,,,,Bugged
+Amelia,Mena,Human Resources Professional,Threshold Brands,amena@thresholdbrands.com,,http://www.linkedin.com/in/amelia-mena-phr-1aa29b18,http://www.thresholdbrands.com,United States,,,,,,,,Bugged
+Wilco,Haan,Founder & Shareholder,TriGlobal,wilco.haan@triglobal.org,,http://www.linkedin.com/in/haandewilco,http://www.triglobal.org,Netherlands,,,,,,,,Bugged
+Michelle,Duval,Founder & CEO,Fingerprint for Success (F4S),michelle@fingerprintforsuccess.com,,http://www.linkedin.com/in/michelleduval1,http://www.fingerprintforsuccess.com,Australia,,,,,,,,Bugged
+Michella,Gilliam,Communications Coordinator,Threshold Brands,mgilliam@thresholdbrands.com,,http://www.linkedin.com/in/michella-gilliam-033438129,http://www.thresholdbrands.com,United States,,,,,,,,Bugged
+Harjyot,Gill,"Team Lead, Field Specialist Operations",Clutch,harjyot.gill@clutch.ca,,http://www.linkedin.com/in/harjyot-gill-89b359136,http://www.clutchnow.com,Canada,,,,,,,,Bugged
+Matthew,Reid,Vice President Of Software Engineering » Franchising | Home Services | Change Management | Strategy,Threshold Brands,mreid@thresholdbrands.com,,http://www.linkedin.com/in/matthewnreid,http://www.thresholdbrands.com,Australia,,,,,,,,Bugged
+Ines,Rosa,Team Lead Marketing,GetSteps,ines.rosa@get-steps.com,,http://www.linkedin.com/in/ines-garcia-de-la-rosa-8962309b,http://www.get-steps.com,Germany,,,,,,,,Bugged
+Queena,Chang,Diamond Expert,VRAI,queena@vrai.com,,http://www.linkedin.com/in/queena-chang-897ba0183,http://www.vrai.com,United States,,,,,,,,Bugged
+Ashlea,Hayden,Account Executive,Staffer,ashlea@staffer.cc,,http://www.linkedin.com/in/ashlea-hayden-583158181,http://www.staffer.cc,United States,,,,,,,,Bugged
+Philip,Nelson,Software Engineer,AVB Inc.,pnelson@avbinc.com,,http://www.linkedin.com/in/philip-s-nelson,http://www.avbinc.com,United States,,,,,,,,Bugged
+Ben,Gatewood,Lead Data Engineer,Cipher Sports Technology Group,b.gatewood@ciphersports.io,,http://www.linkedin.com/in/bengatewood,http://www.ciphersports.io,Australia,,,,,,,,Bugged
+Haley,Engle,Executive Assistant,"Company Folders, Inc.",hengle@companyfolders.com,,http://www.linkedin.com/in/haley-engle-0576b5177,http://www.companyfolders.com,United States,,,,,,,,Bugged
+Brian,Stanback,Principal Engineer and Partner,Demand.io,brian@zipfworks.com,,http://www.linkedin.com/in/brianstanback,http://www.demand.io,United States,,,,,,,,Bugged
+Alex,Occhionero,Forecasting Analyst,365 Holdings,alex.o@365-holdings.com,,http://www.linkedin.com/in/alex-occhionero-9aa258150,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Dands,Barcena,Pre-Sale Specialist,Clutch,dands@clutchnow.com,,http://www.linkedin.com/in/dands-barcena-106532ba,http://www.clutchnow.com,Canada,,,,,,,,Bugged
+Bryan,Schmidt,Interactive Art Director,Lifeblue,bryan@lifeblue.com,,http://www.linkedin.com/in/bryan-schmidt-1985b244,http://www.lifeblue.com,United States,,,,,,,,Bugged
+Ken,Ostermann,Co-founder and COO,Talimer,ken.ostermann@talimer.com,,http://www.linkedin.com/in/kenostermann,http://www.talimer.com,United States,,,,,,,,Bugged
+Robert,Jonathen,Director of Operations,Submit Express,robert@submitexpress.com,,http://www.linkedin.com/in/robert-jonathen-157b3a156,http://www.submitexpress.com,United States,,,,,,,,Bugged
+Charles,Dixon,Buyer and Junior Operation Associate,365 Holdings,charles@365-holdings.com,,http://www.linkedin.com/in/charles-dixon-jr-740aa865,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Rosemarie,Palulan,Senior Technical Recruiter,Capital Markets Placement,rosemarie@capitalmarketsp.com,,http://www.linkedin.com/in/rosemariepalulan,http://www.capitalmarketsp.com,United States,,,,,,,,Bugged
+Dan,Eastwood,Director of Website Development,Glacial Multimedia,dan@glacial.com,,http://www.linkedin.com/in/danseastwood,http://www.glacial.com,United States,,,,,,,,Bugged
+Barbara,Ende,Business Development Manager,TriGlobal,barbara.van.den.ende@triglobal.org,,http://www.linkedin.com/in/barbaravandenende,http://www.triglobal.org,Netherlands,,,,,,,,Bugged
+Steven,Garrison,Operations Manager,GDP,steven.garrison@gdpdrilling.com,,http://www.linkedin.com/in/steven-garrison-52870566,http://www.gdpdrilling.com,United States,,,,,,,,Bugged
+Bidyut,Banerjee,Sr. Testing Engineer,"TestPros, Inc.",bidyutbanerjee@testpros.com,,http://www.linkedin.com/in/bidyut-banerjee-96b3b8119,http://www.testpros.com,United States,,,,,,,,Bugged
+John,Escobar,Senior Technical Recruiter,Capital Markets Placement,john@capitalmarketsp.com,,http://www.linkedin.com/in/johnpauloescobar,http://www.capitalmarketsp.com,United States,,,,,,,,Bugged
+Marcus,McConnell,Production Manager,American Tape and Label,marcus@at-l.com,,http://www.linkedin.com/in/marcus-mcconnell-59a18082,http://www.at-l.com,United States,,,,,,,,Bugged
+Scott,Foster,Senior Web Architect,Lifeblue,scott@lifeblue.com,,http://www.linkedin.com/in/fosterscott,http://www.lifeblue.com,United States,,,,,,,,Bugged
+Kelli,Shawver,Senior Franchise Support Specialist,Threshold Brands,kshawver@thresholdbrands.com,,http://www.linkedin.com/in/kelli-shawver,http://www.thresholdbrands.com,United States,,,,,,,,Bugged
+Alex,Corindia,Product Marketer,Veri,alex@veri.co,,http://www.linkedin.com/in/alexcorindia,http://www.veri.co,United States,,,,,,,,Bugged
+Megan,Grupo,Sales Coordinator,Fingerprint for Success (F4S),megan@f4s.com,,http://www.linkedin.com/in/megan-tiffany-grupo-148a2658,http://www.fingerprintforsuccess.com,Philippines,,,,,,,,Bugged
+Christopher,Carman,Junior Developer,365 Holdings,chris.c@365-holdings.com,,http://www.linkedin.com/in/christopher-carman-75257376,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Alexis,Taroian,Business Development,Submit Express,alexa@submitexpress.com,,http://www.linkedin.com/in/alexis-taroian-4006aaa3,http://www.submitexpress.com,United States,,,,,,,,Bugged
+Jeffrey,Kustron,Local SEO Specialist,Glacial Multimedia,jeffrey@glacial.com,,http://www.linkedin.com/in/jeffrey-kustron-ba04a3173,http://www.glacial.com,United States,,,,,,,,Bugged
+Karlie,Allen,Sales Operations Coordinator,Tier4 Group,karlie.allen@tier4group.com,,http://www.linkedin.com/in/karlie-allen-615a47167,http://www.tier4group.com,United States,,,,,,,,Bugged
+Katie,McClure,Event Coordinator,AVB Inc.,katie@avbinc.com,,http://www.linkedin.com/in/katie-mcclure-99231310b,http://www.avbinc.com,United States,,,,,,,,Bugged
+David,Murrell,President,Astanza Laser,dmurrell@astanzalaser.com,,http://www.linkedin.com/in/davidmurrell,http://www.astanzalaser.com,United States,,,,,,,,Bugged
+Scott,,Founder & CEO,Titan Casket,scott@titancasket.com,,http://www.linkedin.com/in/scott-ginsberg,http://www.titancasket.com,United States,,,,,,,,Bugged
+Joe,Heguy,Sales Manager,American Tape and Label,joeh@at-l.com,,http://www.linkedin.com/in/joe-heguy-98765a8a,http://www.at-l.com,United States,,,,,,,,Bugged
+Bianca,Toyos,Social Media & Communications Marketing Manager,Blue Interactive Agency,bianca.toyos@speaktoblue.com,,http://www.linkedin.com/in/bianca-toyos,http://www.blueinteractiveagency.com,United States,,,,,,,,Bugged
+Brielle,Jones,Marketing & Sales Manager,TriGlobal,brielle.jones@triglobal.org,,http://www.linkedin.com/in/briellejones,http://www.triglobal.org,Netherlands,,,,,,,,Bugged
+Sarah,Gelber,Content Marketing Specialist,Glacial Multimedia,sarah@glacial.com,,http://www.linkedin.com/in/sarahlgelber,http://www.glacial.com,United States,,,,,,,,Bugged
+Patrick,Schnitzler,Senior Business Development Manager,GetSteps,patrick.schnitzler@get-steps.com,,http://www.linkedin.com/in/patrick-schnitzler,http://www.get-steps.com,Germany,,,,,,,,Bugged
+Sofia,Tampilic,Customer Happiness,Fingerprint for Success (F4S),sofia@f4s.com,,http://www.linkedin.com/in/sofia-marie-kristel-tampilic-00b110134,http://www.fingerprintforsuccess.com,Philippines,,,,,,,,Bugged
+Kathy,Thomas,Project Specialist,"TestPros, Inc.",kthomas@testpros.com,,http://www.linkedin.com/in/kathy-thomas-585a0418,http://www.testpros.com,United States,,,,,,,,Bugged
+Olcay,Sonat,Sr. Software Developer,Glacial Multimedia,olcay@glacial.com,,http://www.linkedin.com/in/olcaysonat,http://www.glacial.com,Turkey,,,,,,,,Bugged
+Portia,Jones,Director Of Education,Skin Gym,portia@skingymco.com,,http://www.linkedin.com/in/portia-jones-04567778,http://www.skingymco.com,United States,,,,,,,,Bugged
+Jared,Cameron,Training And Quality Manager,Threshold Brands,jcameron@thresholdbrands.com,,http://www.linkedin.com/in/jared-cameron-63b70aa7,http://www.thresholdbrands.com,United States,,,,,,,,Bugged
+Ellena,Branke,Business Development Specialist,TriGlobal,ellena.branke@triglobal.org,,http://www.linkedin.com/in/ellena-branke-72591b113,http://www.triglobal.org,Netherlands,,,,,,,,Bugged
+Andrew,Hows,Software Developer,Fingerprint for Success (F4S),andrew@f4s.com,,http://www.linkedin.com/in/andrew-hows-bb498a47,http://www.fingerprintforsuccess.com,Australia,,,,,,,,Bugged
+Angeli,Silang,Senior Technical Recruiter,Capital Markets Placement,angeli@capitalmarketsp.com,,http://www.linkedin.com/in/babyangelisilang,http://www.capitalmarketsp.com,United States,,,,,,,,Bugged
+Matthew,Mader,Vice President Business Strategy,Blue Interactive Agency,matthew.mader@speaktoblue.com,,http://www.linkedin.com/in/matthew-mader-4092423,http://www.blueinteractiveagency.com,United States,,,,,,,,Bugged
+Kylie,Bee,Product Merchandise Manager,VRAI,kbee@vrai.com,,http://www.linkedin.com/in/kylie-bee-b8484735,http://www.vrai.com,United States,,,,,,,,Bugged
+Anttoni,Aniebonam,"Co-Founder, CEO",Veri,anttoni@veristable.com,,http://www.linkedin.com/in/anttonianiebonam,http://www.veri.co,United States,,,,,,,,Bugged
+Kaytlan,Evans,Marketplace Associate,365 Holdings,kaytlan@365-holdings.com,,http://www.linkedin.com/in/kaytlan-mitchell-evans-b98813a5,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Ben,Franklin,Senior Recruiter,Bee Talent Solutions,benf@beetalentsolutions.com,,http://www.linkedin.com/in/franklin-ben-2604,http://www.beetalentsolutions.com,United States,,,,,,,,Bugged
+Gabrielle,Boehme,Head of Social Media Marketing,VRAI,gboehme@vrai.com,,http://www.linkedin.com/in/gabrielle-boehme,http://www.vrai.com,United States,,,,,,,,Bugged
+Kyle,Kerr,"Senior Manager, Help Desk Services",Threshold Brands,kkerr@thresholdbrands.com,,http://www.linkedin.com/in/kylewkerr,http://www.thresholdbrands.com,United States,,,,,,,,Bugged
+Zak,Ahmed,Senior Recruiter,Bee Talent Solutions,zak@beetalentsolutions.com,,http://www.linkedin.com/in/zak-ahmed-729171202,http://www.beetalentsolutions.com,United States,,,,,,,,Bugged
+Trevor,Serna-Salmon,Talent Partner,Jarvis Elliott,trevor@jarviselliott.com,,http://www.linkedin.com/in/trevor-serna-salmon,http://www.jarviselliott.com,United States,,,,,,,,Bugged
+Swathi,Vaka,Technical Recruiter,Tier4 Group,swathi@tier4group.com,,http://www.linkedin.com/in/swathi-vaka-22616522,http://www.tier4group.com,United States,,,,,,,,Bugged
+Kelsey,Meyers,Associate SEO Analyst,LOCOMOTIVE Agency,kelsey@adaptpartners.com,,http://www.linkedin.com/in/kelsey-meyers-733045148,http://www.locomotive.agency,United States,,,,,,,,Bugged
+Jean,Wallace,Trouble Maker,Lifeblue,jean@lifeblue.com,,http://www.linkedin.com/in/jean-wallace-931a6612,http://www.lifeblue.com,United States,,,,,,,,Bugged
+Kelly,March,Office Manager,Lifeblue,kelly@lifeblue.com,,http://www.linkedin.com/in/kelly-march-02831211a,http://www.lifeblue.com,United States,,,,,,,,Bugged
+John,Kocot,Owner,1-800-PLUMBER,jkocot@1800plumber.com,,http://www.linkedin.com/in/john-kocot-78034160,http://www.1800plumber.com,United States,,,,,,,,Bugged
+Phillip,Barnhard,Client Partner,Lifeblue,barnhard@lifeblue.com,,http://www.linkedin.com/in/phillip-barnhard-839ba8124,http://www.lifeblue.com,United States,,,,,,,,Bugged
+Clifford,Freeney,CEO,1-800-PLUMBER,cfreeney@1800plumber.com,,http://www.linkedin.com/in/clifford-freeney-393ba735,http://www.1800plumber.com,United States,,,,,,,,Bugged
+Frederick,Stark,Senior Software Engineer,Fingerprint for Success (F4S),fred@f4s.com,,http://www.linkedin.com/in/frederickstark,http://www.fingerprintforsuccess.com,Australia,,,,,,,,Bugged
+Harold,Flowers,Senior System Administrator,"TestPros, Inc.",hflowers@testpros.com,,http://www.linkedin.com/in/harold-flowers-6298821bb,http://www.testpros.com,United States,,,,,,,,Bugged
+Sarah,Churchman,Information Systems Security Officer (ISSO) for 6th Communications Squardron,"TestPros, Inc.",schurchman@testpros.com,,http://www.linkedin.com/in/sarahmchurchman,http://www.testpros.com,United States,,,,,,,,Bugged
+Alex,Martinez,VP of Sales and Marketing,Submit Express,alex@submitexpress.com,,http://www.linkedin.com/in/alex-martinez-49014a142,http://www.submitexpress.com,United States,,,,,,,,Bugged
+Eric,Corpuz,Technical Recruiter,Capital Markets Placement,eric@capitalmarketsp.com,,http://www.linkedin.com/in/ercorpuz,http://www.capitalmarketsp.com,United States,,,,,,,,Bugged
+Maurice,Don,Co owner and CEO,TriGlobal,maurice.don@triglobal.org,,http://www.linkedin.com/in/mauricedon,http://www.triglobal.org,Netherlands,,,,,,,,Bugged
+Joe,Vorster,Online Marketing Specialist - UK Moving & Relocation,TriGlobal,joe.vorster@triglobal.org,,http://www.linkedin.com/in/joe-vorster-b551821a5,http://www.triglobal.org,Netherlands,,,,,,,,Bugged
+Zaq,Dayton,Interactive Art Director,Lifeblue,zaq@lifeblue.com,,http://www.linkedin.com/in/zaqdayton,http://www.lifeblue.com,United States,,,,,,,,Bugged
+Leslie,Reynaldo,Business Development Manager,Jarvis Elliott,l.reynaldo@jarviselliott.com,,http://www.linkedin.com/in/leslie-reynaldo-8396b8199,http://www.jarviselliott.com,United States,,,,,,,,Bugged
+Derek,Odell,Director Of Product Development / R&D,Lifeblue,derek@lifeblue.com,,http://www.linkedin.com/in/dodell,http://www.lifeblue.com,United States,,,,,,,,Bugged
+Jamieson,Webking,Web Development + SEO + IT Management,Glacial Multimedia,jamieson@glacial.com,,http://www.linkedin.com/in/jamiesonwebking,http://www.glacial.com,United States,,,,,,,,Bugged
+Allison,Fichera,Digital Marketing Manager,Glacial Multimedia,allie@glacial.com,,http://www.linkedin.com/in/allison-fichera,http://www.glacial.com,United States,,,,,,,,Bugged
+Morgan,Bloom,Search Engine Optimization Manager,Mover Search Marketing,morgan@moversearchmarketing.com,,http://www.linkedin.com/in/morganbloom,http://www.moversearchmarketing.com,United States,,,,,,,,Bugged
+Cedric,Keenan,Online Marketing Specialist - Moving & Relocation in the Middle East,TriGlobal,cedric.keenan@triglobal.org,,http://www.linkedin.com/in/cedric-keenan,http://www.triglobal.org,Netherlands,,,,,,,,Bugged
+Sandra,Molina,Boutique Manager,VRAI,smolina@vrai.com,,http://www.linkedin.com/in/sandra-bermudez-molina,http://www.vrai.com,Spain,,,,,,,,Bugged
+Jim,Cashwell,Security Engineer II,"TestPros, Inc.",jcashwell@testpros.com,,http://www.linkedin.com/in/jimcashwell,http://www.testpros.com,United States,,,,,,,,Bugged
+Dana,Walker,Data Analyst | Marketing,Lifeblue,dwalker@lifeblue.com,,http://www.linkedin.com/in/dana-walker-4555bbb7,http://www.lifeblue.com,Peru,,,,,,,,Bugged
+Carolina,Armstrong,Director of People Operations,Lifeblue,carolina@lifeblue.com,,http://www.linkedin.com/in/carolinaarmstrong,http://www.lifeblue.com,United States,,,,,,,,Bugged
+Christi,Haley-Stover,Chief Executive Officer,Platinum Resource Group,chaleystover@prgwest.com,,http://www.linkedin.com/in/christihaleystover,http://www.platinumresourcegroup.com,United States,,,,,,,,Bugged
+Stephanie,C,Talent Partner,funded.club,stephanie@funded.jobs,,http://www.linkedin.com/in/stephanie-c-5595b421b,http://www.funded.club,South Korea,,,,,,,,Bugged
+Alexandra,Webb,Director Of Rehabilitation,Allaire Rehab & Nursing,awebb@allairehc.com,,http://www.linkedin.com/in/alexandra-webb-934054229,http://www.allairehc.com,United States,,,,,,,,Bugged
+Sophie,Vialle,Business Development Europe,VRAI,svialle@vrai.com,,http://www.linkedin.com/in/sophievialle,http://www.vrai.com,France,,,,,,,,Bugged
+Evgeny,Dolgushin,"D&C Advisor, Support Engineer, Technical Company Man",GDP,evgeny@gdpdrilling.com,,http://www.linkedin.com/in/evgeny-dolgushin-7a0a8371,http://www.gdpdrilling.com,United States,,,,,,,,Bugged
+Melanie,Fitzgerald,Office Manager,GDP,melanie.fitzgerald@gdpdrilling.com,,http://www.linkedin.com/in/melanie-fitzgerald-60b469136,http://www.gdpdrilling.com,United States,,,,,,,,Bugged
+Trisha,Arora,"Product Manager, Consumer",Lantern,trisha@lanternnow.com,,http://www.linkedin.com/in/trishaarora,http://www.lanternuk.com,United States,,,,,,,,Bugged
+Ana,Fuentes,Customer Experience Specialist,VRAI,ana@vrai.com,,http://www.linkedin.com/in/ana-fuentes-a84902160,http://www.vrai.com,United States,,,,,,,,Bugged
+John,Hopkins,Managing Partner,GDP,john@gdpdrilling.com,,http://www.linkedin.com/in/john-hopkins-a76a4247,http://www.gdpdrilling.com,United States,,,,,,,,Bugged
+Chris,Kuhn,Co-Founder & COO,Blennd,chris@blennd.com,,http://www.linkedin.com/in/kuhnchris,http://www.blennd.com,United States,,,,,,,,Bugged
+Kalpana,Kalpnasang,HR Executive,Staffer,kalpana@staffer.cc,,http://www.linkedin.com/in/kalpana-kalpnasang-51135371,http://www.staffer.cc,India,,,,,,,,Bugged
+Jen,Bloomer,SEO Specialist,Blennd,jen@blennd.com,,http://www.linkedin.com/in/jen-bloomer,http://www.blennd.com,United States,,,,,,,,Bugged
+Luke,Henke,Head of Finance and Accounting,Titan Casket,luke@titancasket.com,,http://www.linkedin.com/in/luke-henke-691b8833,http://www.titancasket.com,United States,,,,,,,,Bugged
+Amy,Yan,Client Success and Marketing Manager,Astanza Laser,akim@astanzalaser.com,,http://www.linkedin.com/in/amykimyan,http://www.astanzalaser.com,United States,,,,,,,,Bugged
+Delia,Dunn,Sr. Corporate Recruiter,"TestPros, Inc.",ddunn@testpros.com,,http://www.linkedin.com/in/delia-dunn-35068a126,http://www.testpros.com,United States,,,,,,,,Bugged
+Daniel,Bulos,Technical Recruiter,Jarvis Elliott,daniel@jarviselliott.com,,http://www.linkedin.com/in/daniel-bulos-47986419a,http://www.jarviselliott.com,United States,,,,,,,,Bugged
+Caroline,Delcker,Senior Social Media Manager,GetSteps,caroline.delcker@get-steps.com,,http://www.linkedin.com/in/carolinedelcker,http://www.get-steps.com,Germany,,,,,,,,Bugged
+Karina,,Founder,Skin Gym,karina@skingymco.com,,http://www.linkedin.com/in/karinasulzer,http://www.skingymco.com,United States,,,,,,,,Bugged
+Scott,Kurtz,Director of Product Management,Talimer,scott.kurtz@talimer.com,,http://www.linkedin.com/in/scott-kurtz-a126905,http://www.talimer.com,United States,,,,,,,,Bugged
+Ann-Marie,Sorley,CEO & Founder,Veri,annmarie@veri.ie,,http://www.linkedin.com/in/ann-marie-mc-sorley-6a80858,http://www.veri.co,Ireland,,,,,,,,Bugged
+Anthony,Burris,Outreach Manager,Submit Express,anthony@submitexpress.com,,http://www.linkedin.com/in/anthony-burris-414965b5,http://www.submitexpress.com,United States,,,,,,,,Bugged
+Maricris,Logmao,Lead Sourcing Specialist,Capital Markets Placement,mari@capitalmarketsp.com,,http://www.linkedin.com/in/maricris-logmao-011aa315,http://www.capitalmarketsp.com,United States,,,,,,,,Bugged
+Camille,Mauge,"Search Consultant, Life Sciences",HireMinds,cmauge@hireminds.com,,http://www.linkedin.com/in/camille-maug%c3%a9-954321102,http://www.hireminds.com,United States,,,,,,,,Bugged
+Mark,Lothamer,Senior Project Director,Tier4 Group,mark@tier4group.com,,http://www.linkedin.com/in/mark-lothamer-61a1a81a,http://www.tier4group.com,United States,,,,,,,,Bugged
+Ivan,Osipov,Software Engineer,Veri,ivan@veristable.com,,http://www.linkedin.com/in/ivan-osipov-5a020343,http://www.veri.co,Finland,,,,,,,,Bugged
+Kurt,Bischoff,Sales Manager,Glacial Multimedia,kurt@glacial.com,,http://www.linkedin.com/in/kurt-bischoff-0a687b50,http://www.glacial.com,United States,,,,,,,,Bugged
+Ray,Gibson,Founder & CEO,funded.club,ray@funded.club,,http://www.linkedin.com/in/raygibson99,http://www.funded.club,Netherlands,,,,,,,,Bugged
+Fabrice,Maimbourg,Cadre Dirigeant,GDP,fabrice.maimbourg@gdp-sa.fr,,http://www.linkedin.com/in/fabrice-maimbourg-a5177339,http://www.gdpdrilling.com,France,,,,,,,,Bugged
+Nick,Kumar,Sr Technical Recruiter,"Talent Space, Inc.",nkumar@svtalentspace.com,,http://www.linkedin.com/in/nick-kumar-80006b166,http://www.svtalentspace.com,United States,,,,,,,,Bugged
+Daniel,Tebbe,SEO Analyst,LOCOMOTIVE Agency,daniel@locomotive.agency,,http://www.linkedin.com/in/daniel-tebbe-a807b2106,http://www.locomotive.agency,United States,,,,,,,,Bugged
+Sophia,Wyganowski-Xanthis,Inventory Photographer,Clutch,sophia@clutchnow.com,,http://www.linkedin.com/in/sophia-wyganowski-xanthis-800924181,http://www.clutchnow.com,Canada,,,,,,,,Bugged
+Russell,Harris,Vice President Of Product Management,Clutch,russell@clutch.ca,,http://www.linkedin.com/in/russellharriscolorado,http://www.clutchnow.com,United States,,,,,,,,Bugged
+Ginger,Kochmer,President/CEO,Clutch,ginger@clutchnow.com,,http://www.linkedin.com/in/ginger-kochmer-35a6943,http://www.clutchnow.com,United States,,,,,,,,Bugged
+Amy,Frame,Operations Lead,Veri,amy@veristable.com,,http://www.linkedin.com/in/amy-frame,http://www.veri.co,Finland,,,,,,,,Bugged
+Emily,Schmitt,Marketing Intern,Talimer,emily.schmitt@talimer.com,,http://www.linkedin.com/in/emily-schmitt-155843170,http://www.talimer.com,United States,,,,,,,,Bugged
+Cheryl,Sepulveda,Program Manager Executive Boot Camp,Platinum Resource Group,csepulveda@prgwest.com,,http://www.linkedin.com/in/cherylsepulveda,http://www.platinumresourcegroup.com,United States,,,,,,,,Bugged
+Dre,Oesterle,Planet Wise Wholesale Account Representative,365 Holdings,dre@365-holdings.com,,http://www.linkedin.com/in/dre-oesterle-200166201,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Linda,Baxter,Executive Assistant To Chief Executive Officer,Threshold Brands,lbaxter@thresholdbrands.com,,http://www.linkedin.com/in/linda-baxter-77b81315,http://www.thresholdbrands.com,United States,,,,,,,,Bugged
+Georgia,Semple,Senior Operations Manager,GetSteps,georgia.semple@get-steps.com,,http://www.linkedin.com/in/georgia-semple-6b0564172,http://www.get-steps.com,Germany,,,,,,,,Bugged
+Manoj,Naidu,Co-Founder & COO,Bee Talent Solutions,manojn@beetalentsolutions.com,,http://www.linkedin.com/in/mj-naidu,http://www.beetalentsolutions.com,United States,,,,,,,,Bugged
+Bruce,Dobkowski,"CFO, SEM",Glacial Multimedia,bruce@glacial.com,,http://www.linkedin.com/in/bruce-dobkowski-49087a5a,http://www.glacial.com,United States,,,,,,,,Bugged
+Sophie,Stein,Social Media Manager and Copywriter,Dynamite Jobs,sophie@dynamitecircle.com,,http://www.linkedin.com/in/sophie-stein-011013179,http://www.dynamitejobs.com,United States,,,,,,,,Bugged
+Alexander,,Sr. Product Owner,GetSteps,alex.staendert@get-steps.com,,http://www.linkedin.com/in/alexander-s-5a683046,http://www.get-steps.com,Germany,,,,,,,,Bugged
+Trent,Brown,Strategic Advisor,Fingerprint for Success (F4S),trent@f4s.com,,http://www.linkedin.com/in/browntrent,http://www.fingerprintforsuccess.com,Australia,,,,,,,,Bugged
+Travis,Self,Front End Developer,Lifeblue,travis@lifeblue.com,,http://www.linkedin.com/in/selfpressed,http://www.lifeblue.com,United States,,,,,,,,Bugged
+John,Lee,Computer Test Engineer,"TestPros, Inc.",jlee@testpros.com,,http://www.linkedin.com/in/john-lee-99803115,http://www.testpros.com,United States,,,,,,,,Bugged
+Sergio,Salamanca,Senior Talent Partner - SaaS Tech,Jarvis Elliott,sergio@jarviscole.com,,http://www.linkedin.com/in/sergio-salamanca-927906134,http://www.jarviselliott.com,United States,,,,,,,,Bugged
+Sasha,Marley,Business Advisor,funded.club,sashamarley@careers.funded.club,,http://www.linkedin.com/in/sasha-marley-19156a2,http://www.funded.club,United Kingdom,,,,,,,,Bugged
+Angeline,Roguel,Talent Partner,funded.club,anji@funded.jobs,,http://www.linkedin.com/in/aroguel,http://www.funded.club,United States,,,,,,,,Bugged
+Team,5echo,Entrepreneurial & Intrapreneurial Venture Success Partner,Fingerprint for Success (F4S),team@f4s.com,,http://www.linkedin.com/in/team-5echo-70675a100,http://www.fingerprintforsuccess.com,Malaysia,,,,,,,,Bugged
+Swapnil,Wankhede,Technical Recruiter,Bee Talent Solutions,swapnil@beetalentsolutions.com,,http://www.linkedin.com/in/swapnil-wankhede-24b460200,http://www.beetalentsolutions.com,India,,,,,,,,Bugged
+Inha,Canlas,"IT Technical Recruiter, Senior",Capital Markets Placement,inha@capitalmarketsp.com,,http://www.linkedin.com/in/inhaansherinacanlas,http://www.capitalmarketsp.com,United States,,,,,,,,Bugged
+Jyoti,Sudra,Sales Manager,VRAI,jyoti@vrai.com,,http://www.linkedin.com/in/jyoti-sudra-8a2a7985,http://www.vrai.com,United Kingdom,,,,,,,,Bugged
+Lexi,Dolby,Technical Recruiter,Tier4 Group,lexi@tier4group.com,,http://www.linkedin.com/in/lexidolby,http://www.tier4group.com,United States,,,,,,,,Bugged
+Lauren,Stikeleather,Creative and Digital Marketing Search Consultant,HireMinds,lstikeleather@hireminds.com,,http://www.linkedin.com/in/lauren-stikeleather11,http://www.hireminds.com,United States,,,,,,,,Bugged
+Brooke,Melko,National Account Manager,smartdept. inc.,brooke@thesmartdept.com,,http://www.linkedin.com/in/brooke-melko-351b1b1b,http://www.thesmartdept.com,United States,,,,,,,,Bugged
+Brian,Brooks,Senior UI/UX Designer,Blennd,brian@blennd.com,,http://www.linkedin.com/in/brian-brooks-16238a3b,http://www.blennd.com,United States,,,,,,,,Bugged
+Noah,Scholfield,Full Stack Engineer,Treatspace,noah.scholfield@treatspace.com,,http://www.linkedin.com/in/noahscholfield,http://www.treatspace.com,United States,,,,,,,,Bugged
+Joshua,Siegel,Co-Founder and COO,Titan Casket,josh@titancasket.com,,http://www.linkedin.com/in/jsiegel2,http://www.titancasket.com,United States,,,,,,,,Bugged
+Chrissy,Miscioscia,Office Support Assistant,"1-Stop Design Shop, Inc.",chrissy@1stopdesign.com,,http://www.linkedin.com/in/chrissy-miscioscia-24925813,http://www.1stopdesign.com,United States,,,,,,,,Bugged
+Jesson,Prohaska,Vice President of Supply Chain,365 Holdings,jesson@365-holdings.com,,http://www.linkedin.com/in/jessonprohaska,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Avery,Tompkins,Marketing,Demand.io,avery@dealspotr.com,,http://www.linkedin.com/in/avery-tompkins-058862128,http://www.demand.io,United States,,,,,,,,Bugged
+Lindsay,Clark,Human Resources Director,365 Holdings,lindsay@365-holdings.com,,http://www.linkedin.com/in/lindsay-clark-b42911b3,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Lucie,Cosson,Conseillère en recrutement,Fed IT Canada,luciecosson@fedit.ca,,http://www.linkedin.com/in/lucie-cosson-4a7422134,http://www.fedit.ca,Canada,,,,,,,,Bugged
+David,Perez,Growth Engineer,Veri,david@veristable.com,,http://www.linkedin.com/in/davidgildegomez,http://www.veri.co,Finland,,,,,,,,Bugged
+Juan,Quintero,Vetting Specialist | Recruiter,Dynamite Jobs,juan@dynamitejobs.com,,http://www.linkedin.com/in/juan-pablo-quintero-473968206,http://www.dynamitejobs.com,Colombia,,,,,,,,Bugged
+Jeff,Shreiner,Co-Owner 1800Plumber/Estimator,1-800-PLUMBER,jshreiner@1800plumber.com,,http://www.linkedin.com/in/jeff-shreiner-85387952,http://www.1800plumber.com,United States,,,,,,,,Bugged
+Matija,Squire,Research Coordinator,Fingerprint for Success (F4S),matija@fingerprintforsuccess.com,,http://www.linkedin.com/in/creatorofpositivechange,http://www.fingerprintforsuccess.com,Australia,,,,,,,,Bugged
+Ann,Dietrich,Creative Recruiter,Clutch,annli@clutchnow.com,,http://www.linkedin.com/in/ann-li-dietrich-23417214b,http://www.clutchnow.com,United States,,,,,,,,Bugged
+Richelle,Aldana,Marketing Manager,American Tape and Label,creative@at-l.com,,http://www.linkedin.com/in/richelle-aldana-video5454,http://www.at-l.com,United States,,,,,,,,Bugged
+Dan,Valverde,Graphic Designer & Illustrator,Fingerprint for Success (F4S),dan@f4s.com,,http://www.linkedin.com/in/dan-lago-valverde,http://www.fingerprintforsuccess.com,Ireland,,,,,,,,Bugged
+Jordan,Moody,Graphic Designer,Glacial Multimedia,jordan@glacial.com,,http://www.linkedin.com/in/jordan-moody-477338198,http://www.glacial.com,United States,,,,,,,,Bugged
+Darshi,Dave,Senior Recruiter,funded.club,darshi@funded.jobs,,http://www.linkedin.com/in/darshi-dave-recruiter,http://www.funded.club,Canada,,,,,,,,Bugged
+Brian,Kowalczyk,Creative Director,Lifeblue,brian@lifeblue.com,,http://www.linkedin.com/in/brianpkowalczyk,http://www.lifeblue.com,United States,,,,,,,,Bugged
+Sean,McLoughlin,Vice President of Operations,HireMinds,sean@hireminds.com,,http://www.linkedin.com/in/seanmcloughlin1,http://www.hireminds.com,United States,,,,,,,,Bugged
+Gabrielle,Sacco,"Search Consultant, Life Sciences",HireMinds,gabrielle@hireminds.com,,http://www.linkedin.com/in/gabrielle-sacco-71215912b,http://www.hireminds.com,United States,,,,,,,,Bugged
+Liam,Vance,"Associate Vice President, Search",HireMinds,liam@hireminds.com,,http://www.linkedin.com/in/liamvance,http://www.hireminds.com,United States,,,,,,,,Bugged
+Abigail,Garcia,Finance & Accounting,HIRE Strategies,agarcia@hire-strategies.com,,http://www.linkedin.com/in/abigail-garcia-597949158,http://www.hire-strategies.com,United States,,,,,,,,Bugged
+Lanette,Alarcon,Sample/ Office Coordinator,Birdy Grey,lanette.alarcon@birdygrey.com,,http://www.linkedin.com/in/lanette-alarcon-45a467161,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Shiv,Dutt,Founder,Manifold Ventures,shiv@manifoldventures.net,,http://www.linkedin.com/in/shiv-dutt-a7190619,http://www.manifoldventures.net,India,,,,,,,,Bugged
+Jason,Kauwell,VP of Project Management,Clutch,jason.kauwell@clutch.com,,http://www.linkedin.com/in/jasonkauwell,http://www.clutchnow.com,United States,,,,,,,,Bugged
+Michael,Hartnett,Biomedical Engineer,Astanza Laser,mhartnett@astanzalaser.com,,http://www.linkedin.com/in/michael-hartnett-475386156,http://www.astanzalaser.com,United States,,,,,,,,Bugged
+Michael,Doyle,Developer,Cipher Sports Technology Group,michael@ciphersports.io,,http://www.linkedin.com/in/michael-doyle-39538319,http://www.ciphersports.io,Australia,,,,,,,,Bugged
+Evrhet,Milam,Co-Founder,Clutch,evrhet@clutch.win,,http://www.linkedin.com/in/emilam,http://www.clutchnow.com,United States,,,,,,,,Bugged
+Elfy,Potter,Senior Project Manager,Talimer,elfy.potter@talimer.com,,http://www.linkedin.com/in/elfy-potter-9074912,http://www.talimer.com,United States,,,,,,,,Bugged
+Patty,Byrd,Customer Service Representative,1-800-PLUMBER,pattyb@1800plumber.com,,http://www.linkedin.com/in/patty-byrd-b3579254,http://www.1800plumber.com,United States,,,,,,,,Bugged
+Christopher,Mildyn,Senior National Business Development Manager,"Pacific Placement Group, LLC.",chris@pacificplacement.com,,http://www.linkedin.com/in/christopher-mildyn-a223227,http://www.pacificplacement.com,United States,,,,,,,,Bugged
+James,Doyle,"Vice President, Marketing",Threshold Brands,james@thresholdbrands.com,,http://www.linkedin.com/in/james-doyle-7567562b,http://www.thresholdbrands.com,United States,,,,,,,,Bugged
+Steve,Stover,Operations Director,Platinum Resource Group,sstover@prgwest.com,,http://www.linkedin.com/in/stevestoverpmp,http://www.platinumresourcegroup.com,United States,,,,,,,,Bugged
+Kim,Kilgoar,"Director, Recruiting Strategy & Delivery",Tier4 Group,kim@tier4group.com,,http://www.linkedin.com/in/kimkilgoar,http://www.tier4group.com,United States,,,,,,,,Bugged
+Daniela,Gil,International Recruiter,Dynamite Jobs,daniela@dynamitejobs.com,,http://www.linkedin.com/in/daniela-gil-01a379215,http://www.dynamitejobs.com,Colombia,,,,,,,,Bugged
+Kelly,Fessler,"Organizational Communication Major, Business Minor",Talimer,kelly.fessler@talimer.com,,http://www.linkedin.com/in/kelly-fessler,http://www.talimer.com,United States,,,,,,,,Bugged
+Gerry,Granobles,Web Developer,Suffolk County Webmasters,gerry@sucoweb.com,,http://www.linkedin.com/in/gerry-granobles-16466616a,http://www.sucoweb.com,United States,,,,,,,,Bugged
+Albert,Express,Search Engine Optimizer,Submit Express,albert@submitexpress.com,,http://www.linkedin.com/in/albert-express-b19a9ba4,http://www.submitexpress.com,United States,,,,,,,,Bugged
+Solangie,Pabon,RN/Business Development Director,Allaire Rehab & Nursing,spabon@allairehc.com,,http://www.linkedin.com/in/solangie-pabon-764729b2,http://www.allairehc.com,United States,,,,,,,,Bugged
+Yona,Smith,Director of Franchise Development Marketing,Threshold Brands,ysmith@thresholdbrands.com,,http://www.linkedin.com/in/yonasmith,http://www.thresholdbrands.com,United States,,,,,,,,Bugged
+Paola,Cubillos,SaaS Talent Partner,Jarvis Elliott,paola@jarviselliott.com,,http://www.linkedin.com/in/paola-cubillos-0a3874240,http://www.jarviselliott.com,,,,,,,,,Bugged
+Rhea,Velgos,Digital Marketing Consultant / Account Manager,Glacial Multimedia,rhea@glacial.com,,http://www.linkedin.com/in/rhea-velgos,http://www.glacial.com,United States,,,,,,,,Bugged
+Curtis,Rutt,Operations Manager,365 Holdings,curtis@365-holdings.com,,http://www.linkedin.com/in/curtis-rutt,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Christina,Gmyr,Growth Lead,Fingerprint for Success (F4S),christina@fingerprintforsuccess.com,,http://www.linkedin.com/in/christinagmyr,http://www.fingerprintforsuccess.com,Ireland,,,,,,,,Bugged
+Terence,Smith,IV&V SME,"TestPros, Inc.",tsmith@testpros.com,,http://www.linkedin.com/in/tjmorrill,http://www.testpros.com,United States,,,,,,,,Bugged
+Frans,Lehmusvaara,Co-Founder & CTO,Veri,frans@veristable.com,,http://www.linkedin.com/in/franslehmusvaara,http://www.veri.co,Finland,,,,,,,,Bugged
+Jared,Birkholz,Director Sales Operations,AVB Inc.,jared.birkholz@avb.net,,http://www.linkedin.com/in/jared-birkholz-%e2%98%81%ef%b8%8f-6185a620,http://www.avb.net,United States,,,,,,,,Bugged
+Daniel,Ramsamujh,SaaS Product Management Talent Partner,Jarvis Elliott,daniel.r@jarviselliott.com,,http://www.linkedin.com/in/daniel-ramsamujh-3a8124228,http://www.jarviselliott.com,United States,,,,,,,,Bugged
+Jagadeesh,Battula,Web Application Engineer,Lifeblue,jagadeesh@lifeblue.com,,http://www.linkedin.com/in/jagadeeshb6,http://www.lifeblue.com,United States,,,,,,,,Bugged
+Izabela,Szymanek,Affiliate Marketing & Advertising,TriGlobal,izabela.szymanek@triglobal.org,,http://www.linkedin.com/in/izabela-szymanek,http://www.triglobal.org,Netherlands,,,,,,,,Bugged
+Josh,Luteran,Lead,Clutch,josh@clutchnow.com,,http://www.linkedin.com/in/josh-luteran-828758b4,http://www.clutchnow.com,United States,,,,,,,,Bugged
+Samson,Yang,Content Marketing Intern,Lifeblue,syang@lifeblue.com,,http://www.linkedin.com/in/samsonyang,http://www.lifeblue.com,United States,,,,,,,,Bugged
+Benjamin,Profenius,Online Marketing Strategist,TriGlobal,benjamin.profenius@triglobal.org,,http://www.linkedin.com/in/benprofenius,http://www.triglobal.org,Netherlands,,,,,,,,Bugged
+Rodney,Knight,Graduate Software Engineer,Fingerprint for Success (F4S),rodney@f4s.com,,http://www.linkedin.com/in/rodney-knight-830273202,http://www.fingerprintforsuccess.com,Australia,,,,,,,,Bugged
+Adam,Littell,Senior SEO Strategist,365 Holdings,adam.l@365-holdings.com,,http://www.linkedin.com/in/arlittell,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Andrea,,"Chief Operating Officer, Threshold Brands (formerly MaidPro)",Threshold Brands,andrea@thresholdbrands.com,,http://www.linkedin.com/in/andrea-b-hohermuth,http://www.thresholdbrands.com,United States,,,,,,,,Bugged
+Lisa,,Office Manager,Demand.io,lisa@demand.io,,http://www.linkedin.com/in/lisa-t-48a360b3,http://www.demand.io,United States,,,,,,,,Bugged
+Susan,Tyler,Owner,GDP,,,http://www.linkedin.com/in/susan-tyler-05592615,http://www.gdpdrilling.com,United States,,,,,,,,Bugged
+David,Good,Paid Search Director,Submit Express,david@submitexpress.com,,http://www.linkedin.com/in/david-good-a7061834,http://www.submitexpress.com,United States,,,,,,,,Bugged
+Daniel,L,Business Developer,Submit Express,daniel@submitexpress.com,,http://www.linkedin.com/in/daniel-l-0066aaa3,http://www.submitexpress.com,United States,,,,,,,,Bugged
+David,Hayes,President and Founder,HireMinds,dhayes@hireminds.com,,http://www.linkedin.com/in/hiremindsdbh,http://www.hireminds.com,United States,,,,,,,,Bugged
+John,Slack,Recruiting Enablement Specialist,Platinum Resource Group,jslack@prgwest.com,,http://www.linkedin.com/in/johnjoslack,http://www.platinumresourcegroup.com,United States,,,,,,,,Bugged
+Bulent,Buyuksayar,Talent Acquisition Partner,funded.club,bulent@funded.jobs,,http://www.linkedin.com/in/bulentbuyuksayar,http://www.funded.club,United Kingdom,,,,,,,,Bugged
+David,Anderson,Managing Director and Senior Digital Advisor,Reputation Management Consultants,david@reputationmanagementconsultants.com,,http://www.linkedin.com/in/davidandersonrmc,http://www.reputationmanagementconsultants.com,United States,,,,,,,,Bugged
+Heather,Cowart,Senior Interactive Producer,Lifeblue,heather@lifeblue.com,,http://www.linkedin.com/in/heather-cowart-40416012b,http://www.lifeblue.com,United States,,,,,,,,Bugged
+Kelly,Wagner,Jr SEO Consultant,Previsible,kelly@previsible.io,,http://www.linkedin.com/in/kelly-wagner-ms-rd-ldn-193889132,http://www.previsible.io,United States,,,,,,,,Bugged
+Raffaele,Magri,Talent Acquisition Partner,funded.club,raffaele@funded.jobs,,http://www.linkedin.com/in/raffaele-magri-26846311a,http://www.funded.club,United States,,,,,,,,Bugged
+Jimmy,Doheny,Director of Revenue Operations,Demand.io,jimmy@demand.io,,http://www.linkedin.com/in/jimmydoheny,http://www.demand.io,United States,,,,,,,,Bugged
+Bryn,Casey,Art Director,Lifeblue,bcasey@lifeblue.com,,http://www.linkedin.com/in/bryn-casey-25224395,http://www.lifeblue.com,United States,,,,,,,,Bugged
+Bill,Southworth,Executive Vice President,Genomic Expression Inc,bill@genomicexpression.com,,http://www.linkedin.com/in/whsouthworth,http://www.genomicexpression.com,United States,,,,,,,,Bugged
+Mara,Ditullio,Technical Recruiter,Tier4 Group,mara@tier4group.com,,http://www.linkedin.com/in/mara-ditullio,http://www.tier4group.com,United States,,,,,,,,Bugged
+Asher,Hardt,Director Of Operations,Skin Gym,asher@skingymco.com,,http://www.linkedin.com/in/asherhardt,http://www.skingymco.com,United States,,,,,,,,Bugged
+Brett,Campbell,Senior Recruiter,Platinum Resource Group,bcampbell@prgwest.com,,http://www.linkedin.com/in/brett-campbell-a708544,http://www.platinumresourcegroup.com,United States,,,,,,,,Bugged
+Camilla,Vendrame,Showroom Manager,VRAI,camilla@vrai.com,,http://www.linkedin.com/in/camillavendrame,http://www.vrai.com,United States,,,,,,,,Bugged
+Alexander,,Operations and Growth,Dynamite Jobs,alexander@dynamitejobs.co,,http://www.linkedin.com/in/alexanderharling,http://www.dynamitejobs.com,United States,,,,,,,,Bugged
+Melissa,Ramirez,Search Engine Optimization Project Manager,Blue Interactive Agency,melissa@blueinteractiveagency.com,,http://www.linkedin.com/in/melissa-ramirez-mba-4a545963,http://www.blueinteractiveagency.com,United States,,,,,,,,Bugged
+Sharon,Clark,"Vice President, Staffing and Operations","Pacific Placement Group, LLC.",sharon@pacificplacement.com,,http://www.linkedin.com/in/sharon-clark-82700214,http://www.pacificplacement.com,United States,,,,,,,,Bugged
+Michaela,Albano,Marketing and Creative Search Consultant,HireMinds,malbano@hireminds.com,,http://www.linkedin.com/in/michaela-albano-mba-b0b8a983,http://www.hireminds.com,United States,,,,,,,,Bugged
+Tina,Mikelic,Client Service Director,Platinum Resource Group,tmikelic@prgwest.com,,http://www.linkedin.com/in/tina-mikelic-9876a5aa,http://www.platinumresourcegroup.com,United States,,,,,,,,Bugged
+Gina,Leyva,Account Management and Business Development Sales (Spain and Baggage),TriGlobal,gina.leyva@triglobal.org,,http://www.linkedin.com/in/gina-leyva-601a02166,http://www.triglobal.org,Netherlands,,,,,,,,Bugged
+Cara,Lovett,Director of Fermentation & Product Development,365 Holdings,cara@365-holdings.com,,http://www.linkedin.com/in/cara-lovett-91a503146,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Aileen,Serpe,Staffing Coordinator,Allaire Rehab & Nursing,aserpe@allairehc.com,,http://www.linkedin.com/in/aileen-serpe-81a83885,http://www.allairehc.com,United States,,,,,,,,Bugged
+Grace,Taylor,Director of Sales,VRAI,grace@vrai.com,,http://www.linkedin.com/in/grace-taylor-msw-81496049,http://www.vrai.com,United States,,,,,,,,Bugged
+Ashley,,Engagement Specialist,VRAI,ashley@vrai.com,,http://www.linkedin.com/in/ashsymlee,http://www.vrai.com,United States,,,,,,,,Bugged
+Kelley,Potter,Biotechnology and Life Sciences Search Consultant,HireMinds,kpotter@hireminds.com,,http://www.linkedin.com/in/kelley-potter,http://www.hireminds.com,United States,,,,,,,,Bugged
+Christina,Boardman,HR & Office Administrator,"Talent Space, Inc.",cboardman@svtalentspace.com,,http://www.linkedin.com/in/christina-boardman-3615b0101,http://www.svtalentspace.com,United States,,,,,,,,Bugged
+Rishabh,Sinha,Pre-Sales Advisor,Clutch,rishabh.sinha@clutch.ca,,http://www.linkedin.com/in/rishabh-sinha-25873277,http://www.clutchnow.com,Canada,,,,,,,,Bugged
+Monica,Lara,Operations Manager,Skin Gym,monica@skingymco.com,,http://www.linkedin.com/in/monicalara,http://www.skingymco.com,United States,,,,,,,,Bugged
+Simon,Lewis,Owner,Suffolk County Webmasters,simon@suffolkcountywebmasters.com,,http://www.linkedin.com/in/rastusmaus,http://www.sucoweb.com,United States,,,,,,,,Bugged
+Alex,Prieu,Content Developer,Clutch,alex@clutchnow.com,,http://www.linkedin.com/in/daniel-alex-prieu,http://www.clutchnow.com,United States,,,,,,,,Bugged
+Joe,Perchinske,Contractor,365 Holdings,joe.p@365-holdings.com,,http://www.linkedin.com/in/joe-perchinske-1a47391b8,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Darcy,Chmil,Oil and Gas Consultant,GDP,darcy.chmil@gdpdrilling.com,,http://www.linkedin.com/in/darcy-chmil-897103236,http://www.gdpdrilling.com,United States,,,,,,,,Bugged
+Ethan,Levine,Senior Social Media Strategist,Lifeblue,ethan@lifeblue.com,,http://www.linkedin.com/in/ethanlevine123,http://www.lifeblue.com,United States,,,,,,,,Bugged
+Vincent,Hoursch,Co-Founder & Managing Director,GetSteps,vincent.hoursch@get-steps.com,,http://www.linkedin.com/in/vincent-hoursch,http://www.get-steps.com,Germany,,,,,,,,Bugged
+Samuel,Dempsey,Brand Management Coordinator,365 Holdings,sam@365-holdings.com,,http://www.linkedin.com/in/samueldempsey,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Mark,Whitman,"Founder and CEO - Recruiting Digital Savvy, Digital-First Executives",TeamBuilder Search,mwhitman@teambuildersearch.com,,http://www.linkedin.com/in/markawhitman,http://www.teambuildersearch.com,United States,,,,,,,,Bugged
+Hannah,Garland,Director Of Marketing Operations,Glacial Multimedia,hannah@glacial.com,,http://www.linkedin.com/in/hannah-whitten,http://www.glacial.com,United States,,,,,,,,Bugged
+John,Palomo,Senior Recruiter,funded.club,john.robert@funded.jobs,,http://www.linkedin.com/in/palomojohn,http://www.funded.club,Philippines,,,,,,,,Bugged
+Justin,Loomer,Franchise Development Representative,Threshold Brands,jloomer@thresholdbrands.com,,http://www.linkedin.com/in/justinloomer,http://www.thresholdbrands.com,United States,,,,,,,,Bugged
+Oliver,Gatz,Production Operations Lead,GetSteps,oliver.gatz@get-steps.com,,http://www.linkedin.com/in/oliver-gatz-857444148,http://www.get-steps.com,Germany,,,,,,,,Bugged
+Nicolas,Graf,SEO Analyst,TriGlobal,nicolas.graf@triglobal.org,,http://www.linkedin.com/in/nicolas-graf-06ba3b84,http://www.triglobal.org,Austria,,,,,,,,Bugged
+Valtteri,Laine,Software Engineer,Veri,valtteri@veri.co,,http://www.linkedin.com/in/lainevaltteri,http://www.veri.co,Finland,,,,,,,,Bugged
+Morgan,McKnight,UX/UI Marketing Associate,365 Holdings,morgan.m@365-holdings.com,,http://www.linkedin.com/in/morgan-mcknight-589117163,http://www.365-holdings.com,Australia,,,,,,,,Bugged
+Gil,Alarcon,SaaS Technology- Talent Partner,Jarvis Elliott,gil.alarcon@jarviselliott.com,,http://www.linkedin.com/in/gilalarcon,http://www.jarviselliott.com,United States,,,,,,,,Bugged
+Sarah,Anne,Ecommerce Manager,VRAI,sarah@vrai.com,,http://www.linkedin.com/in/anne-sarah,http://www.vrai.com,United States,,,,,,,,Bugged
+Marina,Markhel,Influencer and Partnership Marketing Manager,Mira,marina.markhel@miracare.com,,http://www.linkedin.com/in/marina-markhel-a6858880,http://www.miracare.com,United Arab Emirates,,,,,,,,Bugged
+Danielle,Redleski,Customer Success Specialist,365 Holdings,danielle@365-holdings.com,,http://www.linkedin.com/in/danielle-redleski-981070188,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Jared,Groff,SEO Manager,FourFront,jared.groff@fourfront.us,,http://www.linkedin.com/in/jaredgroff,http://www.fourfront.us,United States,,,,,,,,Bugged
+Hunter,Sanders,Diamond Expert,VRAI,hunter@vrai.com,,http://www.linkedin.com/in/hunter-sanders-4aa465108,http://www.vrai.com,United States,,,,,,,,Bugged
+Karen,Dobkowski,Chief Financial Officer / Chief Operations Officer,Glacial Multimedia,karen@glacial.com,,http://www.linkedin.com/in/karen-dobkowski-496404b,http://www.glacial.com,United States,,,,,,,,Bugged
+JT,Siurek,Marketplace Analyst,365 Holdings,jt@365-holdings.com,,http://www.linkedin.com/in/jt-siurek-2a2a07126,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Cori,Baldasare,Technical Recruiter,Demand.io,cori@demand.io,,http://www.linkedin.com/in/corinabaldasare,http://www.demand.io,Argentina,,,,,,,,Bugged
+David,Lucas,Senior Software Engineer,Capital Markets Placement,ddlucas@lse.com,,http://www.linkedin.com/in/ddlucas,http://www.capitalmarketsp.com,United States,,,,,,,,Bugged
+Joseph,Carlton,Full Stack Developer,VRAI,jcarlton@vrai.com,,http://www.linkedin.com/in/rconjoe,http://www.vrai.com,United States,,,,,,,,Bugged
+Ryan,Crooks,Director & GM of Ontario Production,Clutch,ryan.crooks@clutch.ca,,http://www.linkedin.com/in/crooksryan,http://www.clutchnow.com,Canada,,,,,,,,Bugged
+Katie,Fly,Content Director,Blue Interactive Agency,katie@blueinteractiveagency.com,,http://www.linkedin.com/in/katie-fly-38634388,http://www.blueinteractiveagency.com,United States,,,,,,,,Bugged
+Frank,Colon,General Manager,Morris View Healthcare Center,fcolon@morrisview.com,,http://www.linkedin.com/in/frank-colon-84105a113,http://www.morrisview.com,United States,,,,,,,,Bugged
+Millie,Vargas,Staffing Coordinator,Morris View Healthcare Center,mvargas@morrisview.com,,http://www.linkedin.com/in/millie-vargas-17133b217,http://www.morrisview.com,United States,,,,,,,,Bugged
+Jerrica,Thomas,Vice President Operations,365 Holdings,jerrica@365-holdings.com,,http://www.linkedin.com/in/jerrica-thomas-8485b2192,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Carlos,Gonzalez,Organic SEO,Glacial Multimedia,carlos@glacial.com,,http://www.linkedin.com/in/carlos-gonzalez-2330201b5,http://www.glacial.com,United States,,,,,,,,Bugged
+Iekaterina,Stepanyuk,IT Recruiter,Capital Markets Placement,iekaterina@capitalmarketsp.com,,http://www.linkedin.com/in/iekaterina-stepanyuk-85a538114,http://www.capitalmarketsp.com,United States,,,,,,,,Bugged
+Russel,Dubree,Founder Emeritus,Lifeblue,russel@lifeblue.com,,http://www.linkedin.com/in/russeldubree,http://www.lifeblue.com,United States,,,,,,,,Bugged
+Christopher,Mendez,President,OrbitJobs.Org,chrismendez@orbitjobs.org,,http://www.linkedin.com/in/chrismendezirsi,http://www.orbitjobs.org,Canada,,,,,,,,Bugged
+Ray,Abresch,Sales Director,Talimer,ray.abresch@talimer.com,,http://www.linkedin.com/in/rayabresch,http://www.talimer.com,United States,,,,,,,,Bugged
+Greg,Sivetts,VP,American Tape and Label,greg@at-l.com,,http://www.linkedin.com/in/greg-sivetts-75801543,http://www.at-l.com,United States,,,,,,,,Bugged
+Maddie,Sponsler,Supply Chain Lead,365 Holdings,maddie.s@365-holdings.com,,http://www.linkedin.com/in/maddie-sponsler-49210157,http://www.365-holdings.com,Australia,,,,,,,,Bugged
+Sean,Sarian,Sr. Account Executive,Submit Express,sean@submitexpress.com,,http://www.linkedin.com/in/seansarian,http://www.submitexpress.com,,,,,,,,,Bugged
+Bernard,Borjal,IT Technical Recruiter,Capital Markets Placement,bernard@capitalmarketsp.com,,http://www.linkedin.com/in/bernardlborjal,http://www.capitalmarketsp.com,United States,,,,,,,,Bugged
+Michael,Shuster,Vice President Of Recruiting,Capital Markets Placement,michael@capitalmarketsp.com,,http://www.linkedin.com/in/michaelshuster2,http://www.capitalmarketsp.com,United States,,,,,,,,Bugged
+Elysander,Plaza,Franchise Support Specialist,Threshold Brands,eplaza@thresholdbrands.com,,http://www.linkedin.com/in/elysander-plaza-23183222,http://www.thresholdbrands.com,United States,,,,,,,,Bugged
+Roy,Alexander,Senior Talent Partner | SaaS Tech,Jarvis Elliott,roy@jarviselliott.com,,http://www.linkedin.com/in/roy-alexander-iii-49a24a119,http://www.jarviselliott.com,United States,,,,,,,,Bugged
+Violette,Moussavi,SEO Manager,VRAI,violette@vrai.com,,http://www.linkedin.com/in/violettem,http://www.vrai.com,United States,,,,,,,,Bugged
+Danilo,Silva,Infrastructure Engineer,Clutch,danilo.silva@withclutch.com,,http://www.linkedin.com/in/sdanilo,http://www.clutchnow.com,Brazil,,,,,,,,Bugged
+Scott,White,"SVP, Principal Recruiter",HireMinds,scott@hireminds.com,,http://www.linkedin.com/in/scottallanwhite,http://www.hireminds.com,United States,,,,,,,,Bugged
+Hans,Struijk,Finance Professional,TriGlobal,hans.struijk@triglobal.org,,http://www.linkedin.com/in/hans-struijk-787397163,http://www.triglobal.org,Netherlands,,,,,,,,Bugged
+Katie,Capri,Creative Lead,VRAI,kcapri@vrai.com,,http://www.linkedin.com/in/katie-capri-59441569,http://www.vrai.com,United States,,,,,,,,Bugged
+Max,Young,Head of Coach Team and Researcher,Fingerprint for Success (F4S),max@f4s.com,,http://www.linkedin.com/in/maximusyoung,http://www.fingerprintforsuccess.com,Australia,,,,,,,,Bugged
+David,Hirsch,SEO,Submit Express,david@submitexpress.com,,http://www.linkedin.com/in/david-hirsch-a234b628,http://www.submitexpress.com,United States,,,,,,,,Bugged
+Denmark,Vesey,Web Editor,Glacial Multimedia,denmark@glacial.com,,http://www.linkedin.com/in/denmark-vesey-34b350165,http://www.glacial.com,United States,,,,,,,,Bugged
+Jennifer,El-Makdah,Brand Communications Associate,365 Holdings,jenn.e@365-holdings.com,,http://www.linkedin.com/in/jenniferelmakdah,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Raphael,Lukowicz,Produktmanager,GetSteps,raphael.lukowicz@get-steps.com,,http://www.linkedin.com/in/raphael-lukowicz-339940100,http://www.get-steps.com,Germany,,,,,,,,Bugged
+Matthew,Weyand,Intern,Glacial Multimedia,matthew@glacial.com,,http://www.linkedin.com/in/matthew-weyand-a5164965,http://www.glacial.com,United States,,,,,,,,Bugged
+Todd,Nist,Vice President Of Engineering,Talentpair,todd.nist@talentpair.com,,http://www.linkedin.com/in/toddnist,http://www.talentpair.com,United States,,,,,,,,Bugged
+Steven,Stahl,Franchise Development Representative,Threshold Brands,sstahl@thresholdbrands.com,,http://www.linkedin.com/in/steven-stahl-b3a6024,http://www.thresholdbrands.com,United States,,,,,,,,Bugged
+Malik,Ahmed,Global Head - Recruitment & Operations,Bee Talent Solutions,maliks@beetalentsolutions.com,,http://www.linkedin.com/in/malikahmed,http://www.beetalentsolutions.com,India,,,,,,,,Bugged
+Somerset,Buchanan,Senior Director of Central Coaching,Threshold Brands,sbuchanan@thresholdbrands.com,,http://www.linkedin.com/in/somerset-buchanan-5b766340,http://www.thresholdbrands.com,United States,,,,,,,,Bugged
+Cody,Martin,Senior Partner,GDP,cody@gdpdrilling.com,,http://www.linkedin.com/in/cody-martin-0347b113a,http://www.gdpdrilling.com,United States,,,,,,,,Bugged
+Jenny,Rice,GM of Human Resources,AVB Inc.,jenny.rice@avb.net,,http://www.linkedin.com/in/jenny-rice-b4866b73,http://www.avb.net,United States,,,,,,,,Bugged
+Kristen,Parisi,SaaS Talent Partner,Jarvis Elliott,kristen@jarviselliott.com,,http://www.linkedin.com/in/kristen-parisi-3463aab9,http://www.jarviselliott.com,United States,,,,,,,,Bugged
+Jacquelyn,Small,Owner,Clutch,jacquelyn@clutchnow.com,,http://www.linkedin.com/in/jacquelyn-small-0957687,http://www.clutchnow.com,United States,,,,,,,,Bugged
+Liz,Farmer,Content Coordinator,Lifeblue,liz@lifeblue.com,,http://www.linkedin.com/in/farmerliz,http://www.lifeblue.com,United States,,,,,,,,Bugged
+Natalie,Callahan,Consultant,"Pacific Placement Group, LLC.",natalie@pacificplacement.com,,http://www.linkedin.com/in/natalie-callahan-2a06a4a,http://www.pacificplacement.com,United States,,,,,,,,Bugged
+Sylvester,Jalnaiz,Community Outreach Specialist,Fingerprint for Success (F4S),sylvester@f4s.com,,http://www.linkedin.com/in/sylvesterjalnaiz,http://www.fingerprintforsuccess.com,Philippines,,,,,,,,Bugged
+Melissa,Guzman,Search Engine Optimization Project Manager,Blue Interactive Agency,melissa@blueinteractiveagency.com,,http://www.linkedin.com/in/melissa-ramirez-guzman-4a545963,http://www.blueinteractiveagency.com,United States,,,,,,,,Bugged
+Angie,Grosso,VP of Operations,Glacial Multimedia,angie@glacial.com,,http://www.linkedin.com/in/angiegrosso,http://www.glacial.com,United States,,,,,,,,Bugged
+Kenneth,Stallings,Director Of Franchise Development,Threshold Brands,kstallings@thresholdbrands.com,,http://www.linkedin.com/in/kennethrstallings,http://www.thresholdbrands.com,United States,,,,,,,,Bugged
+Rippan,Ram,President & CEO,"Pacific Placement Group, LLC.",rippan@pacificplacement.com,,http://www.linkedin.com/in/rippan-ram-58805028,http://www.pacificplacement.com,United States,,,,,,,,Bugged
+Kevin,Murray,President. & CEO,"TestPros, Inc.",kmurray@testpros.com,,http://www.linkedin.com/in/ivvqa,http://www.testpros.com,United States,,,,,,,,Bugged
+Amanda,Eichenauer,Graphic Designer,Glacial Multimedia,aeichenauer@glacial.com,,http://www.linkedin.com/in/amanda-eichenauer-31440825,http://www.glacial.com,United States,,,,,,,,Bugged
+Mariah,Roberge,Client Manager,Glacial Multimedia,mariah@glacial.com,,http://www.linkedin.com/in/mariah-roberge-3727b4162,http://www.glacial.com,United States,,,,,,,,Bugged
+Ames,Forish,Resale Specialist,Threshold Brands,aforish@thresholdbrands.com,,http://www.linkedin.com/in/ames-forish-4b0b8b,http://www.thresholdbrands.com,United States,,,,,,,,Bugged
+Marcus,Tuttle,IT Director,1-800-PLUMBER,mtuttle@1800plumber.com,,http://www.linkedin.com/in/marcus-tuttle-78b29b19,http://www.1800plumber.com,United States,,,,,,,,Bugged
+Sean,Gartland,Head of Product,Demand.io,sean@demand.io,,http://www.linkedin.com/in/sgartland4304,http://www.demand.io,United States,,,,,,,,Bugged
+Irini,Diamanti,SEO- & Content-Managerin,GetSteps,irini.diamanti@get-steps.com,,http://www.linkedin.com/in/irini-diamanti,http://www.get-steps.com,Germany,,,,,,,,Bugged
+Angelica,Houdoy,Internet Marketing Specialist,TriGlobal,angelica.houdoy@triglobal.org,,http://www.linkedin.com/in/angelica-houdoy-a74108a3,http://www.triglobal.org,Netherlands,,,,,,,,Bugged
+Tiffany,O'Neill,Ecomm Ops Manager,VRAI,tiffany@vrai.com,,http://www.linkedin.com/in/tiffany-o-neill-91820a166,http://www.vrai.com,United States,,,,,,,,Bugged
+Vamsi,Guttikonda,Technical Recruiter,Bee Talent Solutions,vamsig@beetalentsolutions.com,,http://www.linkedin.com/in/vamsi-krishna-guttikonda-214932204,http://www.beetalentsolutions.com,India,,,,,,,,Bugged
+Kristen,Ferguson,Associate Content Creator,365 Holdings,kristen@365-holdings.com,,http://www.linkedin.com/in/kristen-ferguson-swartz-7140561b6,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Alyssa,Tallarico,HR Generalist,365 Holdings,alyssa.t@365-holdings.com,,http://www.linkedin.com/in/alyssa-tallarico-581044181,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Danielle,Bello,Technical Recruiter,Capital Markets Placement,danielle@capitalmarketsp.com,,http://www.linkedin.com/in/danielle-bello-67a596ab,http://www.capitalmarketsp.com,United States,,,,,,,,Bugged
+Maddie,Acciavatti,Project Manager,Glacial Multimedia,maddie@glacial.com,,http://www.linkedin.com/in/maddieacciavatti,http://www.glacial.com,United States,,,,,,,,Bugged
+Kat,Dahlgren,Digital Designer,Birdy Grey,kat.dahlgren@birdygrey.com,,http://www.linkedin.com/in/kat-dahlgren-8808422b,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Aaron,Goin,Software Engineer,Talentpair,aaron@talentpair.com,,http://www.linkedin.com/in/aarondgo,http://www.talentpair.com,United States,,,,,,,,Bugged
+Eric,Schiffer,Creator,Reputation Management Consultants,eric@reputationmanagementconsultants.com,,http://www.linkedin.com/in/ericschiffer3,http://www.reputationmanagementconsultants.com,United States,,,,,,,,Bugged
+Rosica,Anastasova,Project Manager,Reputation Management Consultants,rosica@reputationmanagementconsultants.com,,http://www.linkedin.com/in/rosica-anastasova-32b56417,http://www.reputationmanagementconsultants.com,United States,,,,,,,,Bugged
+Alexandra,Bruno,Data Analyst,Birdy Grey,alexandra.bruno@birdygrey.com,,http://www.linkedin.com/in/alexandra-bruno-86758b155,http://www.birdygrey.com,United States,,,,,,,,Bugged
+David,,Unconscionably Senior Architect And Developer Of Full Stack Solutions,Lifeblue,david@lifeblue.com,,http://www.linkedin.com/in/david-b-b4845790,http://www.lifeblue.com,United States,,,,,,,,Bugged
+Robin,Green,Senior Director Of Operations,VRAI,robin.green@vrai.com,,http://www.linkedin.com/in/robin-green-9a642a25,http://www.vrai.com,United States,,,,,,,,Bugged
+Ye-Hui,Goldenson,Vice President of Global Public Relations and Partnerships,VRAI,ye-hui.g@vrai.com,,http://www.linkedin.com/in/yehuilu,http://www.vrai.com,United States,,,,,,,,Bugged
+Jordan,Cuvelier,Customer Service Sales Specialist,365 Holdings,jordan.c@365-holdings.com,,http://www.linkedin.com/in/jordan-cuvelier-322ab717b,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Megan,Hevner,Director Of Client Services,Tier4 Group,megan.hevner@tier4group.com,,http://www.linkedin.com/in/meganhevner,http://www.tier4group.com,United States,,,,,,,,Bugged
+Annie,Luu,Global VP of Strategic Partnerships,Fingerprint for Success (F4S),annie@f4s.com,,http://www.linkedin.com/in/099-annie-luu,http://www.fingerprintforsuccess.com,Singapore,,,,,,,,Bugged
+Heather,Shreiner,Owner,1-800-PLUMBER,hshreiner@1800plumber.com,,http://www.linkedin.com/in/heather-shreiner-83299a38,http://www.1800plumber.com,United States,,,,,,,,Bugged
+Greg,Valentine,Head of Recruitment,Dynamite Jobs,greg@dynamitejobs.com,,http://www.linkedin.com/in/gregvalentineudig,http://www.dynamitejobs.com,United States,,,,,,,,Bugged
+Jason,Greene,Software Tester,"TestPros, Inc.",jgreene@testpros.com,,http://www.linkedin.com/in/jason-greene-289b59a5,http://www.testpros.com,United States,,,,,,,,Bugged
+Tobias,Helsing,Software Developer,Veri,tobias@veristable.com,,http://www.linkedin.com/in/tobias-helsing,http://www.veri.co,Finland,,,,,,,,Bugged
+Barbara,Baxley,Executive Assistant to Marketing  |  Billing Specialist,Glacial Multimedia,barbara@glacial.com,,http://www.linkedin.com/in/barbara-baxley-64444651,http://www.glacial.com,United States,,,,,,,,Bugged
+Olena,Balik,Sourcing manager,Capital Markets Placement,olena@capitalmarketsp.com,,http://www.linkedin.com/in/olena-balik-9668a045,http://www.capitalmarketsp.com,United States,,,,,,,,Bugged
+Lina,Jaime,Account Manager,Dynamite Jobs,lina@dynamitejobs.co,,http://www.linkedin.com/in/lina-castro-095023141,http://www.dynamitejobs.com,Colombia,,,,,,,,Bugged
+Emily,Dyer,Customer Experience Specialist,VRAI,emily@vrai.com,,http://www.linkedin.com/in/emily-dyer-681174107,http://www.vrai.com,United States,,,,,,,,Bugged
+Nuutti,Pyysiainen,Financial Analyst,Veri,nuutti@veristable.com,,http://www.linkedin.com/in/nuutti-pyysi%c3%a4inen-101377131,http://www.veri.co,Finland,,,,,,,,Bugged
+Nimisha,P,Associate Recruiter,Bee Talent Solutions,nimisha@beetalentsolutions.com,,http://www.linkedin.com/in/nimisha-t-p-04a864194,http://www.beetalentsolutions.com,India,,,,,,,,Bugged
+Kelley,Bledsoe,Senior Technical Recruiter,Tier4 Group,kelley.bledsoe@tier4group.com,,http://www.linkedin.com/in/kelley-bledsoe-19103a170,http://www.tier4group.com,United States,,,,,,,,Bugged
+Anna,Strahle,Digital Marketing Search Consultant,HireMinds,anna@hireminds.com,,http://www.linkedin.com/in/anna-strahle,http://www.hireminds.com,United States,,,,,,,,Bugged
+Steven,Logan,Videographer,365 Holdings,steven.l@365-holdings.com,,http://www.linkedin.com/in/steven-logan-780902212,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Jorge,Marces,Security Consultant,"TestPros, Inc.",jmarces@testpros.com,,http://www.linkedin.com/in/jorge-a-marces-027a0054,http://www.testpros.com,United States,,,,,,,,Bugged
+Alyssa,Boothby,Social Media Marketing Manager,Glacial Multimedia,alyssa@glacial.com,,http://www.linkedin.com/in/alyssa-boothby-4b2b54120,http://www.glacial.com,United States,,,,,,,,Bugged
+Ryan,Hill,Organic SEO Manager,Glacial Multimedia,ryan@glacial.com,,http://www.linkedin.com/in/rch1003,http://www.glacial.com,United States,,,,,,,,Bugged
+Jack,Pham,Senior Reputation Advisor,Reputation Management Consultants,jack@reputationmanagementconsultants.com,,http://www.linkedin.com/in/jack-pham-52b71410b,http://www.reputationmanagementconsultants.com,United States,,,,,,,,Bugged
+Joe,Kosakowski,Founder/CEO,Talentpair,joe@talentpair.com,,http://www.linkedin.com/in/joekoz,http://www.talentpair.com,United States,,,,,,,,Bugged
+Jenna,Shrm-Cp,"HR Manager, Global and North America",Mira,jenna.kashcheeva@miracare.com,,http://www.linkedin.com/in/jennaka,http://www.miracare.com,United States,,,,,,,,Bugged
+Matt,Bischoff,IT Manager,Silencer Shop,mbischoff@silencershop.com,,http://www.linkedin.com/in/matt-bischoff-9770b452,http://www.silencershop.com,United States,,,,,,,,Bugged
+Bryanna,Hopson,Sales and Marketing Lead,HIRE Strategies,bhopson@hire-strategies.com,,http://www.linkedin.com/in/bryanna,http://www.hire-strategies.com,United States,,,,,,,,Bugged
+Winnifer,Liu,Vice President Sourcing,Birdy Grey,winnifer.liu@birdygrey.com,,http://www.linkedin.com/in/winnifer-liu-9bb7b87,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Tera,Caven,Web Content Writer,Submit Express,tera@submitexpress.com,,http://www.linkedin.com/in/tera-caven-492315bb,http://www.submitexpress.com,United States,,,,,,,,Bugged
+Julia,,"VP,Operations",Capital Markets Placement,julie@capitalmarketsp.com,,http://www.linkedin.com/in/juliabolbas,http://www.capitalmarketsp.com,United States,,,,,,,,Bugged
+Ana,Carceller,Diamond Expert,VRAI,acarceller@vrai.com,,http://www.linkedin.com/in/ana-santirso-carceller-7167072b,http://www.vrai.com,Spain,,,,,,,,Bugged
+Caitlin,Toomey,Marketing Search Consultant,HireMinds,caitlin@hireminds.com,,http://www.linkedin.com/in/caitlintoomey1,http://www.hireminds.com,United States,,,,,,,,Bugged
+Austin,Reed,Talent Partner - SaaS Technology,Jarvis Elliott,austin@jarviselliott.com,,http://www.linkedin.com/in/areed63,http://www.jarviselliott.com,United States,,,,,,,,Bugged
+Debbie,Minardi,Special Projects,"Talent Space, Inc.",dminardi@svtalentspace.com,,http://www.linkedin.com/in/debbie-minardi-25675a2,http://www.svtalentspace.com,United States,,,,,,,,Bugged
+Tyler,Frahlich,"Search Consultant, Life Sciences",HireMinds,tyler@hireminds.com,,http://www.linkedin.com/in/tylerfrahlich,http://www.hireminds.com,United States,,,,,,,,Bugged
+Meagan,Brown,Operations Manager,Tier4 Group,meagan@tier4group.com,,http://www.linkedin.com/in/meagan-brown-75b83b40,http://www.tier4group.com,United States,,,,,,,,Bugged
+Tanya,Bhasin,Senior CRM Manager,GetSteps,tanya.bhasin@get-steps.com,,http://www.linkedin.com/in/tanya-bhasin-925586116,http://www.get-steps.com,Germany,,,,,,,,Bugged
+Sierra,Sanchez,Operations Administrator,Platinum Resource Group,ssanchez@prgwest.com,,http://www.linkedin.com/in/sierrajulieannasanchez,http://www.platinumresourcegroup.com,United States,,,,,,,,Bugged
+Christian,Thum,Customer Care Team Lead,GetSteps,christian.thum@get-steps.com,,http://www.linkedin.com/in/christianthum,http://www.get-steps.com,Germany,,,,,,,,Bugged
+Nicholas,Kotch,Digital Marketing Associate,365 Holdings,nick@365-holdings.com,,http://www.linkedin.com/in/nicholas-kotch,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Jeriel,,Senior Technical Recruiter,Capital Markets Placement,jeriel@capitalmarketsp.com,,http://www.linkedin.com/in/jerielvicente,http://www.capitalmarketsp.com,United States,,,,,,,,Bugged
+Breeana,Cebula,Vice President / Executive Recruiter - Life Sciences,HireMinds,breeana@hireminds.com,,http://www.linkedin.com/in/breeanahireminds,http://www.hireminds.com,United States,,,,,,,,Bugged
+Amit,Mustafi,Principal Recruiter,Bee Talent Solutions,amit@beetalentsolutions.com,,http://www.linkedin.com/in/amitmustafi,http://www.beetalentsolutions.com,United States,,,,,,,,Bugged
+Ashley,Wetzel,"Director, Recruiting/Sr. Technical Recruiter",Tier4 Group,ashley@tier4group.com,,http://www.linkedin.com/in/ashleycarlinwetzel,http://www.tier4group.com,United States,,,,,,,,Bugged
+Alisha,Timmons,Project Manager,Glacial Multimedia,alisha@glacial.com,,http://www.linkedin.com/in/alisha-timmons-90983ab4,http://www.glacial.com,,,,,,,,,Bugged
+Kensley,Lowther,Structure and Pricing Analyst,Energy Harbor,klowther@energyharbor.com,,http://www.linkedin.com/in/kensley-lowther-84a9631b3,http://www.energyharbor.com,United States,,,,,,,,Bugged
+Max,Orenstein,Associate Talent Partner,Jarvis Elliott,max@jarviselliott.com,,http://www.linkedin.com/in/maorenstein1,http://www.jarviselliott.com,United States,,,,,,,,Bugged
+Nick,Davis,Senior Digital Strategist,Reputation Management Consultants,nick@reputationmanagementconsultants.com,,http://www.linkedin.com/in/nick-davis-183b49135,http://www.reputationmanagementconsultants.com,United States,,,,,,,,Bugged
+Torrey,Weisberg,Customer Experience Lead,Birdy Grey,torrey.weisberg@birdygrey.com,,http://www.linkedin.com/in/torrey-weisberg-669a7113a,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Brigette,Reichart,Director of E-commerce,Birdy Grey,brigette.reichart@birdygrey.com,,http://www.linkedin.com/in/brigettereichart,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Megan,Glover,Retention Marketing Manager,Birdy Grey,megan.glover@birdygrey.com,,http://www.linkedin.com/in/meganrglover,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Stephen,Garcia,Senior Accounting Manager,Birdy Grey,stephen.garcia@birdygrey.com,,http://www.linkedin.com/in/stephen-garcia-912506119,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Ellie,Petrie,"Search Consultant, Life Sciences & Biotechnology",HireMinds,epetrie@hireminds.com,,http://www.linkedin.com/in/ellie-petrie,http://www.hireminds.com,United States,,,,,,,,Bugged
+Michael,Dobkowski,Client Services,Glacial Multimedia,mike@glacial.com,,http://www.linkedin.com/in/michael-dobkowski-798862a,http://www.glacial.com,United States,,,,,,,,Bugged
+John,Lundell,Senior Recruiter,funded.club,john@funded.jobs,,http://www.linkedin.com/in/johnjeffreylundell,http://www.funded.club,United States,,,,,,,,Bugged
+Anni,Harju,Head of People Operations,Veri,anni@veri.co,,http://www.linkedin.com/in/anniharju,http://www.veri.co,Finland,,,,,,,,Bugged
+Ryan,,Vice President of Global Sales,Fingerprint for Success (F4S),ryan@f4s.com,,http://www.linkedin.com/in/ryan-h-492a0b26,http://www.fingerprintforsuccess.com,,,,,,,,,Bugged
+Jen,,Showroom Manager,VRAI,jen@vrai.com,,http://www.linkedin.com/in/jen-k-29118158,http://www.vrai.com,United States,,,,,,,,Bugged
+Harlyn,Barros,Technical Recruiter,Capital Markets Placement,harlyn@capitalmarketsp.com,,http://www.linkedin.com/in/harlyn-b-257694225,http://www.capitalmarketsp.com,Denmark,,,,,,,,Bugged
+Victoria,O'Connor,"Sr. Search Consultant, Life Sciences",HireMinds,victoria@hireminds.com,,http://www.linkedin.com/in/victoria-oconnor,http://www.hireminds.com,United States,,,,,,,,Bugged
+Colleen,McGarry,Human Resouce Manager,Threshold Brands,cmcgarry@thresholdbrands.com,,http://www.linkedin.com/in/colleen-mcgarry-7263987,http://www.thresholdbrands.com,United States,,,,,,,,Bugged
+Larry,Fox,Chief Financial Officer,Threshold Brands,lfox@thresholdbrands.com,,http://www.linkedin.com/in/foxlarry6102,http://www.thresholdbrands.com,United States,,,,,,,,Bugged
+Fanny,Motin,Office Manager,Veri,fanny@veri.co,,http://www.linkedin.com/in/fanny-motin-109761137,http://www.veri.co,Finland,,,,,,,,Bugged
+Yannick,Meeus,Principal Software Engineer,Veri,yannick@veri.co,,http://www.linkedin.com/in/yannick-meeus-08b8a78,http://www.veri.co,Finland,,,,,,,,Bugged
+Cindi,Wudyka,VP Stategic Partnership Development,Platinum Resource Group,cwudyka@prgwest.com,,http://www.linkedin.com/in/cindiwilkinwudyka,http://www.platinumresourcegroup.com,United States,,,,,,,,Bugged
+William,Wacker,Senior Systems Administrator,"TestPros, Inc.",wwacker@testpros.com,,http://www.linkedin.com/in/william-p-wacker-2580916,http://www.testpros.com,United States,,,,,,,,Bugged
+Alicia,,Director of Customer Experience,VRAI,alicia@vrai.com,,http://www.linkedin.com/in/alicia-marie-sanchez,http://www.vrai.com,United States,,,,,,,,Bugged
+Nancy,Murray,Finance Manager,"TestPros, Inc.",nmurray@testpros.com,,http://www.linkedin.com/in/nancy-murray-718b771a7,http://www.testpros.com,United States,,,,,,,,Bugged
+Adam,Robinson,Head of Growth,Veri,adam@veristable.com,,http://www.linkedin.com/in/adamrobinsonbrand,http://www.veri.co,United States,,,,,,,,Bugged
+Kelcey,Lehrich,Co-Founder / CEO,365 Holdings,kelcey@365-holdings.com,,http://www.linkedin.com/in/kelceylehrich,http://www.365-holdings.com,Australia,,,,,,,,Bugged
+Hollie,Newsom,Digital Marketing Strategist,Glacial Multimedia,hollie@glacial.com,,http://www.linkedin.com/in/hollie-newsom-68486591,http://www.glacial.com,United States,,,,,,,,Bugged
+Robert,Huelin,Chief Legal Officer,Threshold Brands,rhuelin@thresholdbrands.com,,http://www.linkedin.com/in/robert-huelin-107041a,http://www.thresholdbrands.com,United States,,,,,,,,Bugged
+Emily,Rowe,Head of Analytics and Insights,Birdy Grey,emily.rowe@birdygrey.com,,http://www.linkedin.com/in/emilyroserowe,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Julie,Merriman,"Consulting Partner, IT Executive Services",Tier4 Group,julie@tier4group.com,,http://www.linkedin.com/in/julie-merriman-39213210,http://www.tier4group.com,United States,,,,,,,,Bugged
+Sandy,Pan,Manager of Customer Support,Mira,beibei.pan@miracare.com,,http://www.linkedin.com/in/sandypan,http://www.miracare.com,United States,,,,,,,,Bugged
+Zheng,Yang,Co-Founder,Mira,zyang@quanovate.com,,http://www.linkedin.com/in/yangzheng,http://www.miracare.com,United States,,,,,,,,Bugged
+Daniel,Bowden,Project Manager,FourFront,daniel.bowden@fourfront.us,,http://www.linkedin.com/in/danielmarkbowden,http://www.fourfront.us,United States,,,,,,,,Bugged
+Dustin,Colter,Business Development,Talentpair,dustin@talentpair.com,,http://www.linkedin.com/in/dustincolter,http://www.talentpair.com,United States,,,,,,,,Bugged
+Katie,Heazle,Executive Recruiter,Talentpair,katie.heazle@talentpair.com,,http://www.linkedin.com/in/katie-heazle-4377011a3,http://www.talentpair.com,United States,,,,,,,,Bugged
+Seo,Francisco,Nonprofit,SEO Scholars San Francisco,jacqueline.smith@seo-usa.org,,http://www.linkedin.com/in/seoscholarssf,http://www.seoscholars.org,United States,,,,,,,,Bugged
+Tyler,Robinson,Affiliate & Sales Manager,365 Holdings,tyler@365-holdings.com,,http://www.linkedin.com/in/tyler-robinson-1a831115b,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Ron,Bender,Director of Franchise Relations,Threshold Brands,rbender@thresholdbrands.com,,http://www.linkedin.com/in/ronbender,http://www.thresholdbrands.com,United States,,,,,,,,Bugged
+Hailey,Vanier,Internet Marketing Assistant,Glacial Multimedia,hailey@glacial.com,,http://www.linkedin.com/in/haileyvanier,http://www.glacial.com,United States,,,,,,,,Bugged
+Corey,Imparato,"Practice Manager, Biotechnology",HireMinds,corey@hireminds.com,,http://www.linkedin.com/in/corey-imparato-398077136,http://www.hireminds.com,United States,,,,,,,,Bugged
+Alexia,Dupre,Recruiter,Talimer,alexia.dupre@talimer.com,,http://www.linkedin.com/in/alexia-dupre-7848491bb,http://www.talimer.com,United States,,,,,,,,Bugged
+Daniel,Martinez,Sales Representative,VRAI,dmartinez@vrai.com,,http://www.linkedin.com/in/daniel-martinez-445143214,http://www.vrai.com,United States,,,,,,,,Bugged
+Vimal,Ramjee,Director of Health,Veri,vimal@veri.co,,http://www.linkedin.com/in/ramjeemd,http://www.veri.co,United States,,,,,,,,Bugged
+Lloyd,Transue,Independent Consultant,"TestPros, Inc.",ltransue@testpros.com,,http://www.linkedin.com/in/ltransue3rd,http://www.testpros.com,United States,,,,,,,,Bugged
+Jacqueline,Salazar,Virtual Assistant,Dynamite Jobs,jack@dynamitejobs.com,,http://www.linkedin.com/in/jack-virtual-assistant,http://www.dynamitejobs.com,United States,,,,,,,,Bugged
+Cheyanne,Tisdall,Customer Experience Representative,Lantern,cheyanne.tisdall@lanternuk.com,,http://www.linkedin.com/in/cheyannetisdall,http://www.lanternuk.com,United States,,,,,,,,Bugged
+Sue,Scavilla,Senior Software Development and Technical Consultant,FourFront,sue.scavilla@fourfront.us,,http://www.linkedin.com/in/suescavilla,http://www.fourfront.us,United States,,,,,,,,Bugged
+Hunter,Risso,Events Coordinator,AVB Inc.,hunter.risso@avb.net,,http://www.linkedin.com/in/hunterrisso,http://www.avb.net,United States,,,,,,,,Bugged
+Tyler,Walters,Purchasing Manager,Silencer Shop,tyler@silencershop.com,,http://www.linkedin.com/in/tyler-walters-64167b127,http://www.silencershop.com,United States,,,,,,,,Bugged
+Allison,Pratt,Director of Merchandising and Planning,Birdy Grey,allison.pratt@birdygrey.com,,http://www.linkedin.com/in/allison-whitlock-pratt-b8605957,http://www.birdygrey.com,United States,,,,,,,,Bugged
+William,Toohey,Dealer Training Rep,Silencer Shop,wtoohey@silencershop.com,,http://www.linkedin.com/in/william-toohey-8191727a,http://www.silencershop.com,United States,,,,,,,,Bugged
+Darko,Vukovic,Head Of Product Management,Talentpair,darko.vukovic@talentpair.com,,http://www.linkedin.com/in/darko-vukovic-a8824828,http://www.talentpair.com,United States,,,,,,,,Bugged
+John,Lee,Reputation Advisor,Reputation Management Consultants,john@reputationmanagementconsultants.com,,http://www.linkedin.com/in/john-lee-19838288,http://www.reputationmanagementconsultants.com,United States,,,,,,,,Bugged
+Amy,Anderson,Curriculum Designer & Lead Instructor,SEO Scholars San Francisco,amy.anderson@seo-usa.org,,http://www.linkedin.com/in/amanderson1,http://www.seoscholars.org,United States,,,,,,,,Bugged
+Rajashekar,R,"Global Head - F&A, Admin & HR Operations",Bee Talent Solutions,rajashekar@beetalentsolutions.com,,http://www.linkedin.com/in/rajashekar-o-r-0b967915,http://www.beetalentsolutions.com,India,,,,,,,,Bugged
+Renee,Nielsen,Brand and Digital Designer,GetSteps,renee.nielsen@get-steps.com,,http://www.linkedin.com/in/reneenielsendesign,http://www.get-steps.com,Germany,,,,,,,,Bugged
+Carmen,,Talent Acquisition Partner,funded.club,carmen@funded.jobs,,http://www.linkedin.com/in/notapplicable1,http://www.funded.club,United Kingdom,,,,,,,,Bugged
+Dori,Easterson,Communications Lead,AVB Inc.,dori.easterson@avb.net,,http://www.linkedin.com/in/dorilynne,http://www.avb.net,United States,,,,,,,,Bugged
+Cindy,Lam,Performance Marketing Manager,VRAI,cindy@vrai.com,,http://www.linkedin.com/in/thecindylam,http://www.vrai.com,United States,,,,,,,,Bugged
+Anna,Fischer,Technical Recruiter,Tier4 Group,anna@tier4group.com,,http://www.linkedin.com/in/anna-fischer-355048163,http://www.tier4group.com,United States,,,,,,,,Bugged
+Farredeh,Pippin,Sr. Technical Recruiter,Tier4 Group,farredeh@tier4group.com,,http://www.linkedin.com/in/farredehpippin,http://www.tier4group.com,United States,,,,,,,,Bugged
+Dave,Matheny,Owner,Silencer Shop,dave@silencershop.com,,http://www.linkedin.com/in/dave-matheny-20b90b1,http://www.silencershop.com,United States,,,,,,,,Bugged
+Nicole,Nazareth,Senior Production Manager,Birdy Grey,nicole.nazareth@birdygrey.com,,http://www.linkedin.com/in/nicole-nazareth-39b76847,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Megan,Desmuke,Digital Marketing Director,Birdy Grey,megan.desmuke@birdygrey.com,,http://www.linkedin.com/in/megan-desmuke,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Nicole,Oakes,Front End Developer,Lifeblue,nicole@lifeblue.com,,http://www.linkedin.com/in/oakesnicole,http://www.lifeblue.com,United States,,,,,,,,Bugged
+Hagan,Kappler,Chief Executive Officer,Threshold Brands,hkappler@thresholdbrands.com,,http://www.linkedin.com/in/hagan-kappler-b67b331,http://www.thresholdbrands.com,United States,,,,,,,,Bugged
+Sophia,,Marketing Manager,VRAI,sophia@vrai.com,,http://www.linkedin.com/in/sophialudwig,http://www.vrai.com,United States,,,,,,,,Bugged
+April,Feeney,Accounting Intern,365 Holdings,april@365-holdings.com,,http://www.linkedin.com/in/april-feeney-aa20301a0,http://www.365-holdings.com,Australia,,,,,,,,Bugged
+Devaux,Guy,responsable de production en milieu carcéral,VRAI,devaux@vrai.com,,http://www.linkedin.com/in/devaux-guy-735a5b150,http://www.vrai.com,France,,,,,,,,Bugged
+Nuno,Goncalves,"Vice President, Life Sciences",HireMinds,nuno@hireminds.com,,http://www.linkedin.com/in/nunohireminds,http://www.hireminds.com,United States,,,,,,,,Bugged
+Ashley,Meadows,SaaS Sales Talent Partner,Jarvis Elliott,ashley@jarviselliott.com,,http://www.linkedin.com/in/saas-e-talentpartner,http://www.jarviselliott.com,United States,,,,,,,,Bugged
+Meagan,Madlem,Director of Financial Planning and Analysis,Talentpair,meagan.madlem@talentpair.com,,http://www.linkedin.com/in/meagan-madlem-hemmele-151151b,http://www.talentpair.com,United States,,,,,,,,Bugged
+Tsung,Chen,Associate Director Of Operations,Birdy Grey,tsungwei.chen@birdygrey.com,,http://www.linkedin.com/in/paulctwaf,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Tay,Udvari,Candidate Success Partner,Talentpair,tay.udvari@talentpair.com,,http://www.linkedin.com/in/tay-udvari-b552bb127,http://www.talentpair.com,United States,,,,,,,,Bugged
+Anthony,Lavadera,Lead Data Analyst,FourFront,anthony.lavadera@fourfront.us,,http://www.linkedin.com/in/anthony-lavadera-620b4816,http://www.fourfront.us,United States,,,,,,,,Bugged
+Rushabh,Shah,Vice President - Head of SaaS,Jarvis Elliott,rush@jarviselliott.com,,http://www.linkedin.com/in/rushabh-shah-02614734,http://www.jarviselliott.com,United States,,,,,,,,Bugged
+Juha,Viljanen,Senior Software Engineer and Process Owner,Veri,juha@veri.co,,http://www.linkedin.com/in/juhaviljanen,http://www.veri.co,Finland,,,,,,,,Bugged
+Erica,Conway,Co-Founder,Talimer,erica.conway@talimer.com,,http://www.linkedin.com/in/ericaconway,http://www.talimer.com,United States,,,,,,,,Bugged
+Scott,Kemp,Executive Chef,VRAI,scott@vrai.com,,http://www.linkedin.com/in/scott-kemp-a78131124,http://www.vrai.com,United States,,,,,,,,Bugged
+Lisa,Elder,Client Service Director,Tier4 Group,lisa@tier4group.com,,http://www.linkedin.com/in/lisa-elder-b5913b7,http://www.tier4group.com,United States,,,,,,,,Bugged
+Xinyang,Wu,Director of Production,Mira,xinyang.wu@miracare.com,,http://www.linkedin.com/in/xinyang-wu-31938220a,http://www.miracare.com,United States,,,,,,,,Bugged
+Dan,Madsen,Consumer Sales and Customer Service Representative,Silencer Shop,dmadsen@silencershop.com,,http://www.linkedin.com/in/dan-f-madsen-ii-7b24a81b9,http://www.silencershop.com,United States,,,,,,,,Bugged
+Jonathan,Mackrory,Machine Learning Engineer,Talentpair,jonathan@talentpair.com,,http://www.linkedin.com/in/jonathan-mackrory-a15137ba,http://www.talentpair.com,United States,,,,,,,,Bugged
+Monica,Ashauer,Chief Operating Officer,Birdy Grey,monica@birdygrey.com,,http://www.linkedin.com/in/monica-young-ashauer-1212457,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Keith,Cross,IT Support Specialist,Silencer Shop,kcross@silencershop.com,,http://www.linkedin.com/in/keith-cross-3b245b12a,http://www.silencershop.com,United States,,,,,,,,Bugged
+Onur,Birsen,Chief Technology Officer,Glacial Multimedia,onur@glacial.com,,http://www.linkedin.com/in/onurbirsen,http://www.glacial.com,United Kingdom,,,,,,,,Bugged
+Kristin,Peterssen,"Vice President, Marketing Practice",HireMinds,kristin@hireminds.com,,http://www.linkedin.com/in/kristinpeterssen,http://www.hireminds.com,United States,,,,,,,,Bugged
+Kirk,Smith,CFO,Silencer Shop,ksmith@silencershop.com,,http://www.linkedin.com/in/kirk-smith-04b95717,http://www.silencershop.com,United States,,,,,,,,Bugged
+Raphael,Soares,Customer Service & Sales Representative,Silencer Shop,rsoares@silencershop.com,,http://www.linkedin.com/in/raphael-soares-2165581b1,http://www.silencershop.com,United States,,,,,,,,Bugged
+Karen,Meyer,Clinical Instructor/Staff Development /CQI Coordinator,Morris View Healthcare Center,kmeyer@morrisview.com,,http://www.linkedin.com/in/karen-meyer-b2b84523,http://www.morrisview.com,United States,,,,,,,,Bugged
+Sidnee,Compere,Merchandising and Planning Coordinator,Birdy Grey,sidnee.compere@birdygrey.com,,http://www.linkedin.com/in/sidcompere,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Omar,Njai,Marketing Assistant,HIRE Strategies,onjai@hire-strategies.com,,http://www.linkedin.com/in/omar-njai,http://www.hire-strategies.com,United States,,,,,,,,Bugged
+Kim,Kalishek,Partner & Chief Financial Officer at FourFront,FourFront,kim@fourfront.us,,http://www.linkedin.com/in/kim-kalishek-b0158752,http://www.fourfront.us,United States,,,,,,,,Bugged
+Ben,Swofford,Senior SEO Lead & UX Specialist,FourFront,ben.swofford@fourfront.us,,http://www.linkedin.com/in/benswofford,http://www.fourfront.us,United States,,,,,,,,Bugged
+Wanny,Mei,Development and Marketing Assistant VISTA,SEO Scholars San Francisco,wanny.mei@seoscholars.org,,http://www.linkedin.com/in/wannymei,http://www.seoscholars.org,United States,,,,,,,,Bugged
+Ravi,Mariathasan,Product/Project Manager,FourFront,ravi.mariathasan@fourfront.us,,http://www.linkedin.com/in/ravimariathasan,http://www.fourfront.us,United States,,,,,,,,Bugged
+Allyse,Martinez,Executive Marketing Director,Reputation Management Consultants,allyse@reputationmanagementconsultants.com,,http://www.linkedin.com/in/allyse-martinez-048baa122,http://www.reputationmanagementconsultants.com,United States,,,,,,,,Bugged
+Armene,Galstyan,Digital Design Director,Birdy Grey,armene.galstyan@birdygrey.com,,http://www.linkedin.com/in/armene-galstyan-48324113b,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Jenna,Evavold,Ecommerce Coordinator,Birdy Grey,jenna.evavold@birdygrey.com,,http://www.linkedin.com/in/jennaleeevavold,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Matthew,Blomquist,Software Engineer,Silencer Shop,mblomquist@silencershop.com,,http://www.linkedin.com/in/matthew-blomqui,http://www.silencershop.com,United States,,,,,,,,Bugged
+Claire,Reidy,Operations Associate,Birdy Grey,claire.reidy@birdygrey.com,,http://www.linkedin.com/in/clairereidy,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Morris,Center,Healthcare Facility,Morris View Healthcare Center,chad@morrisview.com,,http://www.linkedin.com/in/morris-view-healthcare-center-1983b8149,http://www.morrisview.com,United States,,,,,,,,Bugged
+Brad,Stith,"Partner, C-Suite and Partnerships Executive",Talentpair,brad@talentpair.com,,http://www.linkedin.com/in/bradstith2,http://www.talentpair.com,United States,,,,,,,,Bugged
+Amena,Mandviwala,Associate Digital Marketing Manager,Birdy Grey,amena.mandviwala@birdygrey.com,,http://www.linkedin.com/in/amandvi,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Christopher,Boeck,General Counsel and Chief Legal Officer,Silencer Shop,cboeck@silencershop.com,,http://www.linkedin.com/in/christopher-boeck-94336928,http://www.silencershop.com,United States,,,,,,,,Bugged
+Nicole,Garcia,SaaS Talent Partner,Jarvis Elliott,nicole@jarviselliott.com,,http://www.linkedin.com/in/nicole806g,http://www.jarviselliott.com,United States,,,,,,,,Bugged
+Hayden,Fox,Brand & Administrative Marketing Assistant,Silencer Shop,hfox@silencershop.com,,http://www.linkedin.com/in/hayden-fox-190532140,http://www.silencershop.com,United States,,,,,,,,Bugged
+Ning,Li,Director of Research & Development,Mira,ning.li@miracare.com,,http://www.linkedin.com/in/ning-li-a6800120a,http://www.miracare.com,United States,,,,,,,,Bugged
+Matthew,Pompa,Senior Email and Growth Marketing Manager,Silencer Shop,mpompa@silencershop.com,,http://www.linkedin.com/in/mvpompa,http://www.silencershop.com,United States,,,,,,,,Bugged
+Liliane,Ruexleben,Head Of Operations,Mover Search Marketing,liliane@moversearchmarketing.com,,http://www.linkedin.com/in/liliane-von-ruexleben,http://www.moversearchmarketing.com,United States,,,,,,,,Bugged
+Kelly,Ruane,Technical Recruiter,Tier4 Group,kelly@tier4group.com,,http://www.linkedin.com/in/kelly-ruane-6b940b142,http://www.tier4group.com,United States,,,,,,,,Bugged
+Ruth,Huffle,Senior Sales Representative,Tier4 Group,ruth@tier4group.com,,http://www.linkedin.com/in/ruth-huffle-54b2821b3,http://www.tier4group.com,United States,,,,,,,,Bugged
+Betsy,Robinson,Founder + CEO,Tier4 Group,betsy@tier4group.com,,http://www.linkedin.com/in/betsyrobinson,http://www.tier4group.com,United States,,,,,,,,Bugged
+Bob,Scavilla,Partner & Chief Executive Officer,FourFront,bob@fourfront.us,,http://www.linkedin.com/in/robertscavilla,http://www.fourfront.us,United States,,,,,,,,Bugged
+Edward,Colson,Central Supply/Purchasing Director,Morris View Healthcare Center,ecolson@morrisview.com,,http://www.linkedin.com/in/edward-colson-62ba5333,http://www.morrisview.com,United States,,,,,,,,Bugged
+Marjorie,Santos,Social Media Manager,Birdy Grey,marjorie.santos@birdygrey.com,,http://www.linkedin.com/in/marjoriexms,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Man,Chan,Chief Scientist,Talentpair,man.chan@talentpair.com,,http://www.linkedin.com/in/man-chan-96a078231,http://www.talentpair.com,United States,,,,,,,,Bugged
+Michael,McGowan,Sales and Service Manager,Silencer Shop,mmcgowan@silencershop.com,,http://www.linkedin.com/in/michael-mcgowan-32952754,http://www.silencershop.com,United States,,,,,,,,Bugged
+Justin,Craven,Dealer Sales Manager,Silencer Shop,jcraven@silencershop.com,,http://www.linkedin.com/in/justin-craven-361a2937,http://www.silencershop.com,United States,,,,,,,,Bugged
+Linsey,Stiglic,Brand Manager,Birdy Grey,linsey.stiglic@birdygrey.com,,http://www.linkedin.com/in/linseystiglic,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Jenny,Kim,Director Of Brand Marketing,Birdy Grey,jenny.kim@birdygrey.com,,http://www.linkedin.com/in/jennyjieunkim,http://www.birdygrey.com,United States,,,,,,,,Bugged
+John,Skelton,Senior Product Designer,Talentpair,john@talentpair.com,,http://www.linkedin.com/in/john-skelton,http://www.talentpair.com,United States,,,,,,,,Bugged
+Isabelle,Chai,Principal Product Scientist,Talentpair,isabelle.chai@talentpair.com,,http://www.linkedin.com/in/isabellechai,http://www.talentpair.com,United States,,,,,,,,Bugged
+Valerie,Bystrova,Content Manager,Mira,valerie.bystrova@miracare.com,,http://www.linkedin.com/in/valerie-bystrova,http://www.miracare.com,United States,,,,,,,,Bugged
+Shabsi,Ganzweig,Administrator,Morris View Healthcare Center,sganzweig@morrisview.com,,http://www.linkedin.com/in/shabsi-ganzweig-lnha-36748517b,http://www.morrisview.com,United States,,,,,,,,Bugged
+Bryan,Bloom,Founder,Mover Search Marketing,bryan@moversearchmarketing.com,,http://www.linkedin.com/in/bryanabloom,http://www.moversearchmarketing.com,United States,,,,,,,,Bugged
+Eric,Neumann,Senior Software Engineer,Talentpair,eric.neumann@talentpair.com,,http://www.linkedin.com/in/eric-neumann-32a33b6b,http://www.talentpair.com,United States,,,,,,,,Bugged
+Travis,Glover,VP Of Business Development and Sales,Silencer Shop,tglover@silencershop.com,,http://www.linkedin.com/in/travis-glover-b3aa9a78,http://www.silencershop.com,United States,,,,,,,,Bugged
+Amber,Bischoff,Marketing Operations Manager,Silencer Shop,amber@silencershop.com,,http://www.linkedin.com/in/amber-bischoff-11a214156,http://www.silencershop.com,United States,,,,,,,,Bugged
+Bob,Anders,Vice President Of Merchandising,Silencer Shop,banders@silencershop.com,,http://www.linkedin.com/in/bob-anders-7b82b387,http://www.silencershop.com,United States,,,,,,,,Bugged
+Saul,Moore,Assistant Administrator,Morris View Healthcare Center,smoore@morrisview.com,,http://www.linkedin.com/in/chaim-saul-moore-4416a031,http://www.morrisview.com,United States,,,,,,,,Bugged
+Janice,Dixon,RN Nursi g Supervisor,Morris View Healthcare Center,jdixon@morrisview.com,,http://www.linkedin.com/in/janice-dixon-53a14a44,http://www.morrisview.com,United States,,,,,,,,Bugged
+Brianna,Depetrillo,Special Projects Manager,Birdy Grey,brianna.d@birdygrey.com,,http://www.linkedin.com/in/brianna-depetrillo-473b4448,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Caroline,Casey,Merchandising and Planning Manager,Birdy Grey,caroline.casey@birdygrey.com,,http://www.linkedin.com/in/carolinelcasey,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Elliot,Aquila,Chief Marketing Officer,Silencer Shop,elliot@silencershop.com,,http://www.linkedin.com/in/elliot-aquila-6b916110b,http://www.silencershop.com,United States,,,,,,,,Bugged
+Matt,Smith,Controller,Silencer Shop,msmith@silencershop.com,,http://www.linkedin.com/in/matt-smith-cpa-6a125a3a,http://www.silencershop.com,United States,,,,,,,,Bugged
+Drew,Beckley,Vice President of Engineering,Silencer Shop,dbeckley@silencershop.com,,http://www.linkedin.com/in/drewbeckleyjr,http://www.silencershop.com,United States,,,,,,,,Bugged
+Margaret,Davey,Licensed Clinical Social Worker,Morris View Healthcare Center,m.davey@morrisview.com,,http://www.linkedin.com/in/mmdavey,http://www.morrisview.com,United States,,,,,,,,Bugged
+Alan,Clegg,Candidate Success Partner,Talentpair,alan.clegg@talentpair.com,,http://www.linkedin.com/in/alanclegg,http://www.talentpair.com,United States,,,,,,,,Bugged
+Rich,Ringwood,Sales Representative,Silencer Shop,rringwood@silencershop.com,,http://www.linkedin.com/in/rich-ringwood-953b6139,http://www.silencershop.com,United States,,,,,,,,Bugged
+David,Szanto,Vice President Of Business Development,Morris View Healthcare Center,dszanto@morrisview.com,,http://www.linkedin.com/in/david-szanto-2b71ab198,http://www.morrisview.com,United States,,,,,,,,Bugged
+Janice,,General Manager,Birdy Grey,janice@birdygrey.com,,http://www.linkedin.com/in/janicekimkim,http://www.birdygrey.com,United States,,,,,,,,Bugged
+Maureen,Sandler,Social Media Manager,Clutch,maureen@clutchnow.com,,http://www.linkedin.com/in/maureen-sandler-5269ba138,http://www.clutchnow.com,United States,,,,,,,,Bugged
+Brianna,Velasco,Program and Communications Assistant VISTA,SEO Scholars San Francisco,brianna.velasco@seo-usa.org,,http://www.linkedin.com/in/briannavelasco,http://www.seoscholars.org,United States,,,,,,,,Bugged
+Tess,Fabeck,Development Manager,SEO Scholars San Francisco,tess.fabeck@seo-usa.org,,http://www.linkedin.com/in/tess-fabeck,http://www.seoscholars.org,United States,,,,,,,,Bugged
+Caleb,Barnes,3D Collectibles Designer,Quidd,caleb@myquidd.com,,http://www.linkedin.com/in/calebsbarnes,http://www.quidd.co,United States,,,,,,,,Bugged
+Kelyn,Hilt,Human Resources Coordinator,Blennd,kelyn@blennd.com,,http://www.linkedin.com/in/kelyn-hilt-897568a8,http://www.blennd.com,United States,,,,,,,,Bugged
+Paul,Masters,Founder & CEO,Staffer,paul@hirekeep.com,,http://www.linkedin.com/in/realpaulmasters,http://www.staffer.cc,United States,,,,,,,,Bugged
+Steph,John,Creative Director,Quidd,john@myquidd.com,,http://www.linkedin.com/in/stephdejohn,http://www.quidd.co,United States,,,,,,,,Bugged
+Renee,Barr,Senior Career Consultant,Seattle Corporate Search,renee@seattlecorporatesearch.com,,http://www.linkedin.com/in/renee-barr-b96377b,http://www.seattlecorporatesearch.com,United States,,,,,,,,Bugged
+James,Phillips,Director,Treatspace,james.phillips@treatspace.com,,http://www.linkedin.com/in/jcpjr2,http://www.treatspace.com,United States,,,,,,,,Bugged
+Ian,Mazza,Senior Operations Manager,Blennd,ian@blennd.com,,http://www.linkedin.com/in/ian-mazza,http://www.blennd.com,United States,,,,,,,,Bugged
+Syrah,Burke,Project Manager,Blennd,syrah@blennd.com,,http://www.linkedin.com/in/syrahburke,http://www.blennd.com,United States,,,,,,,,Bugged
+Debbie,Saag,Inside Sales & Account Manager,Astanza Laser,dsaag@astanzalaser.com,,http://www.linkedin.com/in/debbie-saag-04252521,http://www.astanzalaser.com,United States,,,,,,,,Bugged
+Tess,Milner,People Operations Strategist,Staffer,tess@staffer.cc,,http://www.linkedin.com/in/tess-milner-8a0159181,http://www.staffer.cc,United States,,,,,,,,Bugged
+Jack,Edukere,Talent Success Consultant,Staffer,jack@hirekeep.com,,http://www.linkedin.com/in/jackedukere,http://www.staffer.cc,United States,,,,,,,,Bugged
+Abby,McFaul,Senior Recruiter,Seattle Corporate Search,abby@seattlecorporatesearch.com,,http://www.linkedin.com/in/abbymcfaul,http://www.seattlecorporatesearch.com,United States,,,,,,,,Bugged
+Chad,Davis,SEO Director,Blennd,chad@blennd.com,,http://www.linkedin.com/in/chaddn,http://www.blennd.com,United States,,,,,,,,Bugged
+Bryce,Fisher,Sales & Account Manager,Astanza Laser,bfisher@astanzalaser.com,,http://www.linkedin.com/in/brycefishernyl,http://www.astanzalaser.com,United States,,,,,,,,Bugged
+Mellay,Townsend,Recruiter,Seattle Corporate Search,mellay@seattlecorporatesearch.com,,http://www.linkedin.com/in/mellaygardner,http://www.seattlecorporatesearch.com,United States,,,,,,,,Bugged
+Maja,Hanna,Recruiting Supervisor,Seattle Corporate Search,maja@seattlecorporatesearch.com,,http://www.linkedin.com/in/majamjensen,http://www.seattlecorporatesearch.com,United States,,,,,,,,Bugged
+Heather,Hintz,Recruiter,Seattle Corporate Search,heather@seattlecorporatesearch.com,,http://www.linkedin.com/in/heather-hintz-81089a197,http://www.seattlecorporatesearch.com,United States,,,,,,,,Bugged
+Olivia,Campbell,Content Marketing Specialist,Treatspace,olivia.campbell@treatspace.com,,http://www.linkedin.com/in/oliviatcampbell,http://www.treatspace.com,United States,,,,,,,,Bugged
+Caren,Tobin,Vice President of Sales and Marketing,Treatspace,caren.tobin@treatspace.com,,http://www.linkedin.com/in/caren-tobin-a864398,http://www.treatspace.com,United States,,,,,,,,Bugged
+Lauren,Claffey,Senior Recruiter / Account Manager,Seattle Corporate Search,lauren@seattlecorporatesearch.com,,http://www.linkedin.com/in/lauren-claffey-b6b61713a,http://www.seattlecorporatesearch.com,United States,,,,,,,,Bugged
+Chloe,Smith,SEO Content Specialist,Blennd,chloe@blennd.com,,http://www.linkedin.com/in/chloe-smith-ad,http://www.blennd.com,United States,,,,,,,,Bugged
+Gavin,Beldt,Co-Founder & CEO,Blennd,gavin@blennd.com,,http://www.linkedin.com/in/gavinbeldt,http://www.blennd.com,United States,,,,,,,,Bugged
+James,Vanbev,Lead iOS Developer,Quidd,james@myquidd.com,,http://www.linkedin.com/in/james-vanbev-62343118a,http://www.quidd.co,United States,,,,,,,,Bugged
+James,Tseng,Creative Director,Quidd,jamest@myquidd.com,,http://www.linkedin.com/in/james-ping-wei-tseng-b8302739,http://www.quidd.co,United States,,,,,,,,Bugged
+Karly,Netta,People Operations Strategist,Staffer,karly@staffer.cc,,http://www.linkedin.com/in/karly-netta-303922180,http://www.staffer.cc,United States,,,,,,,,Bugged
+Annette,Popescu,People Operations Strategist,Staffer,annette@staffer.cc,,http://www.linkedin.com/in/annette-popescu-407131180,http://www.staffer.cc,United States,,,,,,,,Bugged
+Garrett,Reid,President,Staffer,garrett@firstresponsestaffer.com,,http://www.linkedin.com/in/garrett-reid-77497349,http://www.staffer.cc,United States,,,,,,,,Bugged
+Taylor,Anastasia,Account Executive,Staffer,taylor@staffer.cc,,http://www.linkedin.com/in/taylor-anastasia-57700117a,http://www.staffer.cc,United States,,,,,,,,Bugged
+Tyler,Ritchie,Recruiting Supervisor,Seattle Corporate Search,tyler@seattlecorporatesearch.com,,http://www.linkedin.com/in/tyler-ritchie-45470a89,http://www.seattlecorporatesearch.com,United States,,,,,,,,Bugged
+Ruby,Rhodes,Recruiter,Seattle Corporate Search,ruby@seattlecorporatesearch.com,,http://www.linkedin.com/in/rubydrhodes,http://www.seattlecorporatesearch.com,United States,,,,,,,,Bugged
+Zachary,Raab,Web Developer,Blennd,zraab@blennd.com,,http://www.linkedin.com/in/zachary-raab-61578248,http://www.blennd.com,United States,,,,,,,,Bugged
+Laura,Dorland,Operations Manager,Seattle Corporate Search,laura@seattlecorporatesearch.com,,http://www.linkedin.com/in/laura-dorland-713451b5,http://www.seattlecorporatesearch.com,United States,,,,,,,,Bugged
+Lauren,Buck,Senior Recruiter,Seattle Corporate Search,lbuck@seattlecorporatesearch.com,,http://www.linkedin.com/in/lauren-buck-96706998,http://www.seattlecorporatesearch.com,United States,,,,,,,,Bugged
+Sam,Henry,Founder-Principal Recruiter,Seattle Corporate Search,sam@seattlecorporatesearch.com,,http://www.linkedin.com/in/seattlecorporatesearch,http://www.seattlecorporatesearch.com,United States,,,,,,,,Bugged
+Jenna,Fenner,Project Manager,Blennd,jenna@blennd.com,,http://www.linkedin.com/in/jenna-fenner-bb728264,http://www.blennd.com,United States,,,,,,,,Bugged
+Brittany,Ansay,Senior Web Developer,Blennd,brittany@blennd.com,,http://www.linkedin.com/in/bansay,http://www.blennd.com,United States,,,,,,,,Bugged
+Raymond,Sotto,Web Developer,Blennd,raymond@blennd.com,,http://www.linkedin.com/in/raymondjsotto,http://www.blennd.com,United States,,,,,,,,Bugged
+Danielle,Zimmerman,Sr. Account Manager/Sr. Recruiter (full-cycle),Seattle Corporate Search,danielle@seattlecorporatesearch.com,,http://www.linkedin.com/in/danielle-zimmerman-58b95875,http://www.seattlecorporatesearch.com,United States,,,,,,,,Bugged
+Nathan,O'Harris,Talent Operations Advisor,Staffer,spencer@staffer.cc,,http://www.linkedin.com/in/spencer-madison-16a443187,http://www.staffer.cc,United States,,,,,,,,Bugged
+Nathan,Smith,Talent Operations Manager,Staffer,nathan@staffer.cc,,http://www.linkedin.com/in/nathan-h-smith,http://www.staffer.cc,United States,,,,,,,,Bugged
+Kasey,Nicole,Account Executive,Staffer,kasey@staffer.cc,,http://www.linkedin.com/in/kasey-nicole-661b401a0,http://www.staffer.cc,United States,,,,,,,,Bugged
+Michael,Bramlage,CEO & Co-Founder,Quidd,michael@myquidd.com,,http://www.linkedin.com/in/mbram,http://www.quidd.co,United States,,,,,,,,Bugged
+Delaney,Sophia,People Operations Lead,Staffer,delaney@staffer.cc,,http://www.linkedin.com/in/delaney-sophia-332a4117a,http://www.staffer.cc,United States,,,,,,,,Bugged
+Mark,Liechti,Back End Developer,Quidd,mark@myquidd.com,,http://www.linkedin.com/in/mark-liechti-054829109,http://www.quidd.co,United States,,,,,,,,Bugged
+Sam,Bench,Director of Performance Marketing,VRAI,sam@vrai.com,,http://www.linkedin.com/in/sam-bench-b7a3422b,http://www.vrai.com,Germany,,,,,,,,Bugged
+Kenny,McNett,"Senior Interactive Producer, Account Manager, and Digital Project Manager",Lifeblue,kenny@lifeblue.com,,http://www.linkedin.com/in/kennymcnett,http://www.lifeblue.com,United States,,,,,,,,Bugged
+Maren,Wood,Business Development Manager,Clutch,maren@clutchnow.com,,http://www.linkedin.com/in/maren-wood-a065051a3,http://www.clutchnow.com,United States,,,,,,,,Bugged
+Yilun,Zhang,Director Of Products,Clutch,yilun.zhang@clutch.ca,,http://www.linkedin.com/in/yilun-zhang-7b804510,http://www.clutchnow.com,United States,,,,,,,,Bugged
+Mehrdad,Komeili,Founder & President,My Office Apps,mehrdad.komeili@myofficeapps.com,,http://www.linkedin.com/in/myofficeapps,http://www.myofficeapps.com,United States,,,,,,,,Bugged
+Anthony,Bronico,Full Stack Software Engineer,Clutch,anthony.bronico@clutch.com,,http://www.linkedin.com/in/anthony-bronico-324809162,http://www.clutchnow.com,United States,,,,,,,,Bugged
+Henri,Lessing,Co-Founder & Managing Partner,Age Media | Performance-Driven YouTube Agency,henri@ageofmedia.net,,http://www.linkedin.com/in/henrilessing,http://www.agemedia.net,Netherlands,,,,,,,,Bugged
+Anne,Mabel,Bartender,Clutch,anne@clutchnow.com,,http://www.linkedin.com/in/anne-mabel-780890188,http://www.clutchnow.com,United States,,,,,,,,Bugged
+Gera,Laurens-Hoving,"SEO copywriter, developer & content specialist",Age Media | Performance-Driven YouTube Agency,gera@ageofmedia.net,,http://www.linkedin.com/in/gera-laurens-hoving,http://www.agemedia.net,Netherlands,,,,,,,,Bugged
+Ally,Reynolds,Accounts Payable Specialist,365 Holdings,ally@365-holdings.com,,http://www.linkedin.com/in/ally-reynolds-b65386189,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Brendan,Raghabir,Customer Experience,Clutch,brendan.raghabir@clutch.ca,,http://www.linkedin.com/in/brendan-raghabir-bb16a01a4,http://www.clutchnow.com,Canada,,,,,,,,Bugged
+Marcos,Marasco,Country Manager Portugal,Age Media | Performance-Driven YouTube Agency,marcos@ageofmedia.net,,http://www.linkedin.com/in/marcos-marasco,http://www.agemedia.net,,,,,,,,,Bugged
+Justin,Scheeff,General Partner and COO,365 Holdings,justin@365-holdings.com,,http://www.linkedin.com/in/justinjscheeff,http://www.365-holdings.com,United States,,,,,,,,Bugged
+Mark,Theisen,"Product Manager, Reporting & Analytics",Clutch,mark.theisen@clutch.com,,http://www.linkedin.com/in/mark-theisen-aa26b69a,http://www.clutchnow.com,United States,,,,,,,,Bugged
+David,Bell,Co-Founder,Previsible,dbell@wdhb.com,,http://www.linkedin.com/in/dbellgo,http://www.previsible.io,Chile,,,,,,,,Bugged
+Tyson,Stockton,Co-founder | Education Partner,Previsible,tyson@previsible.io,,http://www.linkedin.com/in/tysonstockton,http://www.previsible.io,United States,,,,,,,,Bugged
+Jonas,Stropus,Marketing Data Analyst,Mira,jonas@miracare.com,,http://www.linkedin.com/in/jonasstropus,http://www.miracare.com,United States,,,,,,,,Bugged
+Karen,Roberts,Head of Growth and Paid Acquisition,Mira,karen.roberts@miracare.com,,http://www.linkedin.com/in/kchoyroberts,http://www.miracare.com,United States,,,,,,,,Bugged
+Casey,Lewinter,Technical Recruiter,VOSAGO,clewinter@vosago.com,,http://www.linkedin.com/in/casey-lewinter-ba9687225,http://www.vosago.com,United States,,,,,,,,Bugged
+Stephanie,Ridge,Speech Language Pathologist,Allaire Rehab & Nursing,sridge@allairehc.com,,http://www.linkedin.com/in/stephanie-ridge-m-s-ccc-slp-b93521158,http://www.allairehc.com,United States,,,,,,,,Bugged
+Colleen,Fuelling,Talent Acquisition solutions,smartdept. inc.,colleen@thesmartdept.com,,http://www.linkedin.com/in/colleen-fuelling,http://www.thesmartdept.com,United States,,,,,,,,Bugged
+Daisy,Phillips,Human Resources and Operations,HIRE Strategies,dphillips@hire-strategies.com,,http://www.linkedin.com/in/daisy-phillips-3a80b412a,http://www.hire-strategies.com,United States,,,,,,,,Bugged
+Carrie,Hagg,Senior Recruiter/Business Development,HIRE Strategies,chagg@hire-strategies.com,,http://www.linkedin.com/in/carrie-hagg,http://www.hire-strategies.com,United States,,,,,,,,Bugged
+Kevin,Mencos,Talent Acquisition Specialist,HIRE Strategies,kmencos@hire-strategies.com,,http://www.linkedin.com/in/kmencos,http://www.hire-strategies.com,United States,,,,,,,,Bugged
+Brian,Hicks,Chief Operating Officer,HIRE Strategies,bhicks@hire-strategies.com,,http://www.linkedin.com/in/brian-e-hicks-sr-phr-902a4720,http://www.hire-strategies.com,United States,,,,,,,,Bugged
+Denisse,Roman,Sales Marketing Executive Assistant,HIRE Strategies,droman@hire-strategies.com,,http://www.linkedin.com/in/denisse-roman-3675941a3,http://www.hire-strategies.com,United States,,,,,,,,Bugged
+Shaylah,Hopson,Project Administration,HIRE Strategies,shaylah@hire-strategies.com,,http://www.linkedin.com/in/shaylah-hopson-289933160,http://www.hire-strategies.com,United States,,,,,,,,Bugged
+Andy,Crebar,Co-Founder & CEO,HoneyBricks,andy@honeybricks.com,,http://www.linkedin.com/in/andycrebar,http://www.honeybricks.com,United States,,,,,,,,Bugged
+Jessica,Rivera,Recruiter,HIRE Strategies,jrivera@hire-strategies.com,,http://www.linkedin.com/in/jessica-rivera-a33b2315b,http://www.hire-strategies.com,United States,,,,,,,,Bugged
+Margarita,Coronado,Recruiter,HIRE Strategies,mcoronado@hire-strategies.com,,http://www.linkedin.com/in/margarita-coronado-a662837a,http://www.hire-strategies.com,United States,,,,,,,,Bugged
+Hristina,Mangelova,Director Search Engine Optimization,Growth Skills,hristina@growthskills.co,,http://www.linkedin.com/in/hristina-mangelova,http://www.growthskills.co,Bulgaria,,,,,,,,Bugged
+Ethan,Ellis,Marketing Specialist,Clutch,ethan.ellis@clutch.com,,http://www.linkedin.com/in/ethan-ellis-a70baa172,http://www.clutchnow.com,United States,,,,,,,,Bugged
+Radhe,Vaswani,Head of Account Management,Growth Skills,radhe@growthskills.co,,http://www.linkedin.com/in/radhevaswani,http://www.growthskills.co,United States,,,,,,,,Bugged
+Cassie,Simoniello,SEO & Content Manager,Growth Skills,cassie@growthskills.co,,http://www.linkedin.com/in/cassie-simoniello-8b580053,http://www.growthskills.co,Australia,,,,,,,,Bugged
+Lamont,,Chief Operating Officer,Growth Skills,lamont@growthskills.co,,http://www.linkedin.com/in/lamont-c-80449314,http://www.growthskills.co,United States,,,,,,,,Bugged
+Bart,Klaucke,Business Unit Manager,Age Media | Performance-Driven YouTube Agency,bart@agemedia.net,,http://www.linkedin.com/in/bartklaucke,http://www.agemedia.net,Netherlands,,,,,,,,Bugged
+Jennifer,Feaster,Managing Director,Age Media | Performance-Driven YouTube Agency,jennifer@ageofmedia.net,,http://www.linkedin.com/in/jennifer-feaster-703667,http://www.agemedia.net,Netherlands,,,,,,,,Bugged
+Sebastian,Niknafs,"Manager, Network Operations & Business Development",Age Media | Performance-Driven YouTube Agency,sebastian@ageofmedia.net,,http://www.linkedin.com/in/sebastianniknafs,http://www.agemedia.net,United States,,,,,,,,Bugged
+Rachel,Harrington,Director Of Business Development - Marketing,Allaire Rehab & Nursing,rharrington@allairehc.com,,http://www.linkedin.com/in/rachel-harrington-96413976,http://www.allairehc.com,United States,,,,,,,,Bugged
+Dawn,Smith,Director Of Medical Records,Allaire Rehab & Nursing,dsmith@allairehc.com,,http://www.linkedin.com/in/dawn-smith-964495178,http://www.allairehc.com,United States,,,,,,,,Bugged
+Amanda,Burke,Recruiter & Safety Coordinator,HIRE Strategies,aburke@hire-strategies.com,,http://www.linkedin.com/in/amanda-burke-830520a0,http://www.hire-strategies.com,United States,,,,,,,,Bugged
+Chazzity,Washington,Talent Services Specialist,HIRE Strategies,cwashington@hire-strategies.com,,http://www.linkedin.com/in/chazzity-washington-91b3a620b,http://www.hire-strategies.com,United States,,,,,,,,Bugged
+Melissa,Bauza,Senior National Account Manager,smartdept. inc.,melissa@thesmartdept.com,,http://www.linkedin.com/in/melissa-bauz%c3%a1-a2997537,http://www.thesmartdept.com,United States,,,,,,,,Bugged
+April,Levins,Director Of Operations,smartdept. inc.,april@thesmartdept.com,,http://www.linkedin.com/in/aprillevins,http://www.thesmartdept.com,United States,,,,,,,,Bugged
+Michelle,Pairitz,Principal,smartdept. inc.,michelle@thesmartdept.com,,http://www.linkedin.com/in/michelle-pairitz-b93929,http://www.thesmartdept.com,United States,,,,,,,,Bugged
+Heather,Gouldsberry,Director of Talent Acquisition,smartdept. inc.,heather@thesmartdept.com,,http://www.linkedin.com/in/heather-gouldsberry-aa120765,http://www.thesmartdept.com,United States,,,,,,,,Bugged
+Morgan,Gorecki,Creative Recruiter & Account Manager,smartdept. inc.,morgan@thesmartdept.com,,http://www.linkedin.com/in/morgan-gorecki-45741b151,http://www.thesmartdept.com,United States,,,,,,,,Bugged
+Melissa,Imbrogno,Creative Account Manager,smartdept. inc.,melissa@thesmartdept.com,,http://www.linkedin.com/in/melissa-imbrogno-a2997537,http://www.thesmartdept.com,United States,,,,,,,,Bugged

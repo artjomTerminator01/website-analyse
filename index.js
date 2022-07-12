@@ -1,6 +1,5 @@
 const csv = require("csv-parser");
 const fs = require("fs");
-//const { Parser } = require("json2csv");
 const fetch = require("node-fetch");
 const createCsvWriter = require("csv-writer").createObjectCsvWriter;
 
@@ -12,6 +11,7 @@ fs.createReadStream("./data/source/source.csv")
   .on("data", (data) => {
     getInfo(data);
   });
+
 async function getInfo(result) {
   try {
     const response = await fetch(result.Website);
@@ -29,49 +29,79 @@ async function getInfo(result) {
         )
           .then((res) => res.json())
           .then((out) => {
-            console.log("SCOREEEE");
+            const objectParams = [];
             const score = getNestedObject(out, [
               "lighthouseResult",
               "categories",
               "performance",
               "score",
             ]);
-            console.log(score);
-            //const score = out.lighthouseResult.categories.performance.score;
             const blockingTime = getNestedObject(out, [
               "lighthouseResult",
               "audits",
               "total-blocking-time",
               "displayValue",
             ]);
-            console.log(blockingTime);
-            // const blockingTime =
-            //   out.lighthouseResult.audits["total-blocking-time"].displayValue;
-            const firstContentfulPaint =
-              out.lighthouseResult.audits["first-contentful-paint"]
-                .displayValue;
-            const speedIndex =
-              out.lighthouseResult.audits["speed-index"].displayValue;
-            const largestContentfulPaint =
-              out.lighthouseResult.audits["largest-contentful-paint"]
-                .displayValue;
-            const timeToInteractive =
-              out.lighthouseResult.audits["interactive"].displayValue;
-            const cumulativeLayjoutShift =
-              out.lighthouseResult.audits["cumulative-layout-shift"]
-                .displayValue;
+            const firstContentfulPaint = getNestedObject(out, [
+              "lighthouseResult",
+              "audits",
+              "first-contentful-paint",
+              "displayValue",
+            ]);
+            const speedIndex = getNestedObject(out, [
+              "lighthouseResult",
+              "audits",
+              "speed-index",
+              "displayValue",
+            ]);
+            const largestContentfulPaint = getNestedObject(out, [
+              "lighthouseResult",
+              "audits",
+              "largest-contentful-paint",
+              "displayValue",
+            ]);
+            const timeToInteractive = getNestedObject(out, [
+              "lighthouseResult",
+              "audits",
+              "interactive",
+              "displayValue",
+            ]);
+            const cumulativeLayjoutShift = getNestedObject(out, [
+              "lighthouseResult",
+              "audits",
+              "cumulative-layout-shift",
+              "displayValue",
+            ]);
+            objectParams.push(
+              score,
+              blockingTime,
+              firstContentfulPaint,
+              speedIndex,
+              largestContentfulPaint,
+              timeToInteractive,
+              cumulativeLayjoutShift
+            );
 
-            result.score = parseInt((score * 100).toFixed(2));
-            result.blockingTime = blockingTime;
-            result.firstContentfulPaint = firstContentfulPaint;
-            result.speedIndex = speedIndex;
-            result.largestContentfulPaint = largestContentfulPaint;
-            result.timeToInteractive = timeToInteractive;
-            result.cumulativeLayoutShift = cumulativeLayjoutShift;
-            result.status = "Successful";
-            console.log(result);
-            results.push(result);
-            writeCsv(results, "output.csv");
+            const filtered = objectParams.filter((el) => {
+              return el !== undefined;
+            });
+            if (filtered.length < 7) {
+              bugged.push(result);
+              result.status = "Bugged";
+              writeCsv(bugged, "bugged.csv");
+            } else {
+              result.score = parseInt((score * 100).toFixed(2));
+              result.blockingTime = blockingTime;
+              result.firstContentfulPaint = firstContentfulPaint;
+              result.speedIndex = speedIndex;
+              result.largestContentfulPaint = largestContentfulPaint;
+              result.timeToInteractive = timeToInteractive;
+              result.cumulativeLayoutShift = cumulativeLayjoutShift;
+              result.status = "Successful";
+              console.log(result);
+              results.push(result);
+              writeCsv(results, "output.csv");
+            }
           })
           .catch((e) => {
             bugged.push(result);
