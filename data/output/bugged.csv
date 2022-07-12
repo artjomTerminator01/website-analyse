@@ -1,0 +1,28 @@
+First Name,Last Name,Title,Company,Email,Mobile Phone,Personal Linkedin Url,Website,Country,Score,FirstContentfulPaint,SpeedIndex,LargestContentfulPaint,TimeToInteractive,BlockingTime,CumulativeLayoutShift,reason
+Angus,Norriss,Owner,HedgeApple,angus@hedgeapple.com,,http://www.linkedin.com/in/angus-norriss-65532b1,http://www.hedgeapple.com,United Kingdom,,,,,,,,Response not OK
+Patrick,Baker,Head Of Marketing,Lantern,patrick@lanternnow.com,,http://www.linkedin.com/in/patrick-baker-6904b76b,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+Liz,Joyce,Experiential and Content Marketing,Lantern,liz.j@lanternnow.com,,http://www.linkedin.com/in/meetlizjoyce,http://www.lanternnow.com,United States,,,,,,,,Response not OK
+Nicole,Perakis,Human Resources Generalist,Threshold Brands,nperakis@thresholdbrands.com,,http://www.linkedin.com/in/nicole-perakis-b23b63b6,http://www.thresholdbrands.com,United States,,,,,,,,Google fetch api fail!
+Georgia,Semple,Senior Operations Manager,GetSteps,georgia.semple@get-steps.com,,http://www.linkedin.com/in/georgia-semple-6b0564172,http://www.get-steps.com,Germany,,,,,,,,Google fetch api fail!
+Karen,Hogan,Recreation/Volunteer Director,Morris View Healthcare Center,khogan@morrisview.com,,http://www.linkedin.com/in/karen-hogan-6b64b9123,http://www.morrisview.com,United States,,,,,,,,Google fetch api fail!
+James,Doyle,"Vice President, Marketing",Threshold Brands,james@thresholdbrands.com,,http://www.linkedin.com/in/james-doyle-7567562b,http://www.thresholdbrands.com,United States,,,,,,,,Google fetch api fail!
+Bianca,Toyos,Social Media & Communications Marketing Manager,Blue Interactive Agency,bianca.toyos@speaktoblue.com,,http://www.linkedin.com/in/bianca-toyos,http://www.blueinteractiveagency.com,United States,,,,,,,,Google fetch api fail!
+Bram,Kruiter,Eigenaar / Directeur,T-Portal,bram@t-portal.nl,,http://www.linkedin.com/in/bram-de-kruiter-054a9410,http://www.t-portal.nl,Netherlands,,,,,,,,Google fetch api fail!
+Peter,Thompson,Sales Manager,ChefMealKits,peter@chefmealkits.com,,http://www.linkedin.com/in/peter-thompson-78193a6,http://www.chefmealkits.com,United States,,,,,,,,Google fetch api fail!
+Frank,Colon,General Manager,Morris View Healthcare Center,fcolon@morrisview.com,,http://www.linkedin.com/in/frank-colon-84105a113,http://www.morrisview.com,United States,,,,,,,,Google fetch api fail!
+Ashlyn,Killham,Graphic Designer,Birdy Grey,ashlyn.killham@birdygrey.com,,http://www.linkedin.com/in/ashlyn-killham,http://www.birdygrey.com,United States,,,,,,,,Google fetch api fail!
+Lilly,Hofle,CRM & Marketing Manager,GetSteps,lilly.hofle@get-steps.com,,http://www.linkedin.com/in/lilly-h%c3%b6fle-a19360202,http://www.get-steps.com,Germany,,,,,,,,Google fetch api fail!
+Elysander,Plaza,Franchise Support Specialist,Threshold Brands,eplaza@thresholdbrands.com,,http://www.linkedin.com/in/elysander-plaza-23183222,http://www.thresholdbrands.com,United States,,,,,,,,Google fetch api fail!
+Kalpana,Kalpnasang,HR Executive,Staffer,kalpana@staffer.cc,,http://www.linkedin.com/in/kalpana-kalpnasang-51135371,http://www.staffer.cc,India,,,,,,,,Google fetch api fail!
+Deborah,Kurtz,Associate Vice President,HireMinds,deborah@hireminds.com,,http://www.linkedin.com/in/deborahkurtz,http://www.hireminds.com,United States,,,,,,,,Google fetch api fail!
+JD,Busch,Lead Interactive Web Producer,Lifeblue,jd@lifeblue.com,,http://www.linkedin.com/in/jd-busch-5753b81,http://www.lifeblue.com,United States,,,,,,,,Google fetch api fail!
+Hannah,Sherman,Senior Human Resources Manager,Birdy Grey,hannah.sherman@birdygrey.com,,http://www.linkedin.com/in/hannahvsherman,http://www.birdygrey.com,United States,,,,,,,,Google fetch api fail!
+Ashlea,Hayden,Account Executive,Staffer,ashlea@staffer.cc,,http://www.linkedin.com/in/ashlea-hayden-583158181,http://www.staffer.cc,United States,,,,,,,,Google fetch api fail!
+James,,Founder,Tillotek,james@tillotson.io,,http://www.linkedin.com/in/tillotsonjames,http://www.tillotson.io,United States,,,,,,,,Google fetch api fail!
+Will,Pry,Director of Content,Lifeblue,will@lifeblue.com,,http://www.linkedin.com/in/will-pry-0336b34,http://www.lifeblue.com,United States,,,,,,,,Google fetch api fail!
+Ben,Gatewood,Lead Data Engineer,Cipher Sports Technology Group,b.gatewood@ciphersports.io,,http://www.linkedin.com/in/bengatewood,http://www.ciphersports.io,Australia,,,,,,,,Google fetch api fail!
+Joseph,Carlton,Full Stack Developer,VRAI,jcarlton@vrai.com,,http://www.linkedin.com/in/rconjoe,http://www.vrai.com,United States,,,,,,,,Google fetch api fail!
+Queena,Chang,Diamond Expert,VRAI,queena@vrai.com,,http://www.linkedin.com/in/queena-chang-897ba0183,http://www.vrai.com,United States,,,,,,,,Google fetch api fail!
+Sam,Bench,Director of Performance Marketing,VRAI,sam@vrai.com,,http://www.linkedin.com/in/sam-bench-b7a3422b,http://www.vrai.com,Germany,,,,,,,,Google fetch api fail!
+Nazafarin,Akhavi,Digital Marketing Project Manager,VRAI,nazafarin@vrai.com,,http://www.linkedin.com/in/nazafarin-akhavi,http://www.vrai.com,France,,,,,,,,Google fetch api fail!
+Meg,Esterkin,Diamond Expert,VRAI,megesterkin@vrai.com,,http://www.linkedin.com/in/meg-esterkin-172b8229,http://www.vrai.com,United States,,,,,,,,Google fetch api fail!
